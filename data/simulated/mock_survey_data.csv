@@ -1,0 +1,501 @@
+"respondent_id","timestamp","time_to_complete","q_email","q_age","q_gender","q_education","q1_satisfaction","q2_satisfaction","q3_satisfaction","q4_satisfaction","q5_satisfaction","q6_trust","q7_trust","q8_trust","q9_trust","q10_trust","q11_multiselect_Salomon","q11_multiselect_Topo","q11_multiselect_Saucony","q11_multiselect_Brooks","q11_multiselect_Asics","q11_multiselect_Hoka","q11_multiselect_A different brand, not listed here","q12_likert","q13_attention","q14_text","q15_miles_per_week"
+1,2026-01-03 22:26:39.443455,9.5,"user1@example.com",55,"Female","High school",2,3,2,2,2,2,1,2,1,2,"Salomon","Topo",NA,NA,NA,NA,NA,"Agree","Yes, I'm paying attention","I really liked this experience!",30
+2,2026-01-13 14:28:11.114962,6.9,"user2@example.com",30,"Male","Bachelor's",3,5,4,4,4,3,2,2,2,3,NA,NA,NA,NA,NA,"Hoka",NA,NA,"Yes, I'm paying attention","I really liked this experience",24
+3,2026-01-13 19:57:41.681232,9.5,"user3@example.com",29,"Female","High school",4,4,3,4,3,2,2,2,1,2,NA,NA,NA,NA,NA,"Hoka","A different brand, not listed here","Strongly agree","Yes, I'm paying attention","It was confusing at times",24
+4,2026-01-15 15:45:41.80243,7.2,"user4@example.com",28,"Male","Master's",4,3,4,3,3,3,3,3,4,3,NA,NA,NA,"Brooks","Asics","Hoka",NA,"Strongly agree","Yes, I'm paying attention","Well organized and clear",NA
+5,2026-01-06 03:39:12.242725,7.5,"user5@example.com",52,"Male","Some college",3,3,3,2,2,4,3,4,3,3,"Salomon",NA,NA,NA,"Asics",NA,NA,"Agree","Yes, I'm paying attention","asdf qwer zxcv",39
+6,2026-01-17 11:10:24.429097,7.3,"user6@example.com",66,"Female","High school",3,3,3,3,3,3,3,4,3,3,NA,NA,NA,"Brooks",NA,NA,NA,"Agree","Yes, I'm paying attention","Could use some improvement",35
+7,2026-01-25 02:02:12.484229,8.1,"user7@example.com",60,"Male","Some college",5,5,4,3,5,2,2,3,2,3,NA,NA,"Saucony",NA,"Asics",NA,NA,"Strongly agree","Yes, I'm paying attention","It was confusing at times!",31
+8,2026-01-09 13:49:18.394443,10.8,"user8@example.com",29,"Female","Some college",3,3,3,3,2,3,3,4,3,4,NA,NA,NA,NA,NA,NA,NA,"Agree","Yes, I'm paying attention","I learned a lot from this",39
+9,2026-01-08 03:39:34.296277,8.2,"user9@example.com",59,"Male","Master's",4,3,4,3,3,2,1,1,1,2,NA,"Topo",NA,NA,NA,"Hoka",NA,"Strongly agree","Yes, I'm paying attention","No strong opinion",38
+10,2026-01-12 05:38:23.751792,8,"user10@example.com",40,"Male","Bachelor's",3,4,4,3,4,4,4,3,3,3,NA,NA,NA,"Brooks",NA,"Hoka",NA,"Disagree","Yes, I'm paying attention",NA,NA
+11,2026-01-18 04:40:42.193501,8,"user11@example.com",33,"Female","High school",3,5,5,5,4,3,2,3,1,2,NA,NA,NA,NA,NA,"Hoka",NA,NA,NA,NA,NA
+12,2026-01-18 17:28:41.87416,7.3,"user12@example.com",50,"Female","Doctorate",3,4,4,4,4,3,3,3,3,4,NA,NA,"Saucony",NA,"Asics",NA,"A different brand, not listed here","Strongly agree","Yes, I'm paying attention","Could use some improvement.",30
+13,2026-01-29 07:01:49.825383,7.5,"user13@example.com",24,"Female","Doctorate",3,2,3,2,3,3,3,3,2,3,NA,"Topo",NA,NA,NA,NA,"A different brand, not listed here","Neutral","Yes, I'm paying attention","It was confusing at times.",31
+14,2026-01-14 11:47:16.58463,3.1,"user14@example.com",48,NA,"Some college",3,4,4,4,4,4,5,5,5,5,NA,NA,NA,NA,NA,NA,"A different brand, not listed here","Neutral","Yes, I'm paying attention","It was confusing at times.",21
+15,2025-12-31 23:46:31.021328,7.9,"user15@example.com",20,"Female","Some college",4,4,4,4,4,3,2,2,3,3,NA,NA,NA,NA,NA,NA,"A different brand, not listed here",NA,"Yes, I'm paying attention","No strong opinion!",250
+16,2026-01-03 05:25:24.417939,9.1,"user16@example.com",47,"Male","Master's",2,1,2,1,1,4,4,4,4,4,NA,NA,NA,NA,NA,NA,NA,"Agree","Yes, I'm paying attention","No strong opinion.",19
+17,2026-01-07 00:41:08.588221,7.6,"user440@example.com",51,"Male","Bachelor's",1,1,2,1,1,2,2,3,3,3,"Salomon",NA,NA,NA,NA,NA,NA,"Neutral","Yes, I'm paying attention","It was confusing at times",32
+18,2026-01-25 04:35:42.035362,6.9,"user18@example.com",65,"Female","Bachelor's",4,4,4,4,4,4,3,3,4,4,NA,NA,NA,"Brooks",NA,NA,"A different brand, not listed here","Agree","Yes, I'm paying attention","Well organized and clear!",32
+19,2026-01-04 02:48:27.495249,6.4,"user19@example.com",22,"Male","Master's",4,5,5,4,4,4,3,4,4,4,"Salomon",NA,NA,NA,"Asics",NA,NA,"Agree","Yes, I'm paying attention","It was confusing at times.",52
+20,2026-01-29 03:42:40.986755,9.2,"user20@example.com",62,"Male","Bachelor's",2,2,1,1,2,1,2,2,2,1,NA,NA,"Saucony",NA,NA,NA,NA,"Agree","Yes, I'm paying attention","It was confusing at times",42
+21,2026-01-04 06:38:33.270697,6.4,"user21@example.com",32,"Female","Master's",3,3,3,2,2,3,3,2,2,3,NA,NA,NA,NA,NA,NA,NA,"Strongly agree","Yes, I'm paying attention","I really liked this experience!",25
+22,2026-01-04 16:31:05.287276,6.4,"user22@example.com",52,"Female","Bachelor's",2,2,2,3,2,3,4,3,3,4,NA,NA,NA,NA,NA,NA,"A different brand, not listed here","Disagree","Yes, I'm paying attention","I learned a lot from this!",34
+23,2026-01-01 15:12:10.898109,5.8,"user23@example.com",22,"Male","Master's",3,2,2,3,2,3,3,3,3,3,"Salomon",NA,"Saucony","Brooks",NA,NA,NA,"Neutral","Yes, I'm paying attention","Not what I expected!",40
+24,2026-01-28 08:55:40.771756,7,"user24@example.com",50,"Female","Master's",2,2,4,3,3,4,3,4,4,3,NA,NA,"Saucony",NA,"Asics",NA,"A different brand, not listed here","Agree","Yes, I'm paying attention","I really liked this experience.",33
+25,2026-01-15 04:41:17.593188,6.8,"user25@example.com",42,"Female","Some college",4,3,4,4,4,3,1,3,3,2,"Salomon",NA,NA,"Brooks",NA,"Hoka",NA,"Agree","Yes, I'm paying attention","Could use some improvement",46
+26,2026-01-29 03:09:51.747587,8,"user26@example.com",34,"Other","Master's",3,3,3,3,3,3,3,4,3,4,NA,NA,NA,"Brooks",NA,"Hoka",NA,"Strongly agree","Yes, I'm paying attention","Not what I expected",NA
+27,2026-01-13 14:51:56.332338,5.6,"user27@example.com",41,"Male","Master's",3,2,2,3,2,1,2,2,1,1,NA,NA,NA,NA,NA,NA,NA,"Neutral","Yes, I'm paying attention","qwerty uiop 789.",46
+28,2026-01-07 21:31:25.731717,8.7,"user28@example.com",30,"Female","Some college",3,4,3,4,3,4,3,3,4,5,NA,NA,NA,NA,"Asics",NA,NA,NA,"Yes, I'm paying attention","No strong opinion!",44
+29,2026-01-17 13:17:14.590595,5.9,"user29@example.com",25,"Male","Doctorate",2,3,3,3,3,2,2,3,3,3,NA,NA,"Saucony",NA,NA,"Hoka","A different brand, not listed here","Agree","Yes, I'm paying attention","No strong opinion!",32
+30,2026-01-07 08:54:02.896125,8.3,"user30@example.com",58,"Female","Master's",1,1,1,1,1,3,2,3,3,3,NA,NA,NA,"Brooks",NA,NA,"A different brand, not listed here","Neutral","Yes, I'm paying attention","It was confusing at times!",47
+31,2026-01-30 13:43:26.246564,6.5,"user31@example.com",61,"Female","Doctorate",4,4,4,4,3,2,1,3,2,3,NA,NA,NA,NA,NA,NA,NA,"Agree","Yes, I'm paying attention","No strong opinion!",36
+32,2026-01-22 03:13:12.955146,56.6,"user32@example.com",40,"Female","Master's",5,5,5,4,4,2,3,3,3,3,NA,NA,NA,NA,NA,NA,NA,"Strongly agree","Yes, I'm paying attention","asdf qwer zxcv",25
+33,2026-01-18 03:08:41.883069,9.5,"user295@example.com",41,"Female","Master's",3,4,4,4,4,4,3,4,5,3,"Salomon","Topo","Saucony",NA,NA,NA,NA,"Agree","Yes, I'm paying attention","I learned a lot from this",45
+34,2026-01-11 09:01:15.2558,9.1,"user34@example.com",28,"Male","Bachelor's",4,5,3,4,4,2,3,2,3,2,NA,NA,NA,NA,NA,NA,NA,"Disagree","Yes, I'm paying attention","I really liked this experience.",37
+35,2026-01-04 05:22:07.600941,7,"user35@example.com",74,"Male","High school",1,1,1,1,1,3,3,3,3,3,NA,NA,NA,NA,NA,NA,"A different brand, not listed here","Strongly agree","Just clicking this button","Well organized and clear.",21
+36,2026-01-16 09:49:26.472666,5.9,"user36@example.com",38,"Female","Master's",2,2,3,3,3,3,3,3,3,3,"Salomon",NA,NA,NA,"Asics",NA,NA,"Agree","Yes, I'm paying attention","qwerty uiop 789.",45
+37,2026-01-26 10:29:19.393101,8.9,"user37@example.com",33,"Female","Doctorate",3,3,2,3,3,2,3,2,2,3,NA,NA,NA,NA,NA,NA,NA,"Strongly agree","Yes, I'm paying attention","Could use some improvement",46
+38,2026-01-28 12:32:45.122958,9.2,"user38@example.com",39,"Female","Master's",4,3,3,3,3,3,3,3,3,3,NA,NA,NA,NA,NA,NA,NA,"Disagree","Yes, I'm paying attention","It was confusing at times",25
+39,2026-01-30 03:10:16.539526,6.1,"user39@example.com",50,"Female","High school",2,3,3,3,3,4,3,3,3,4,"Salomon",NA,NA,NA,"Asics",NA,NA,"Neutral","Yes, I'm paying attention","Not what I expected!",51
+40,2026-01-15 07:47:34.451092,6.1,"user40@example.com",43,"Female","Doctorate",4,4,3,3,3,3,4,3,3,5,NA,NA,"Saucony",NA,"Asics",NA,"A different brand, not listed here","Agree","Yes, I'm paying attention","I really liked this experience",38
+41,2026-01-01 03:34:36.08168,1.8,"user41@example.com",33,"Male","Master's",4,5,4,5,4,3,3,2,3,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+42,2026-01-17 08:06:25.219813,4.9,"user42@example.com",42,"Female","Doctorate",3,3,4,4,3,4,3,3,3,3,NA,NA,"Saucony",NA,NA,"Hoka","A different brand, not listed here","Neutral","Yes, I'm paying attention","No strong opinion",31
+43,2026-01-29 00:58:16.765666,8.2,"user43@example.com",59,"Male","Master's",2,3,3,3,2,3,3,3,3,3,NA,NA,NA,"Brooks",NA,"Hoka","A different brand, not listed here","Agree","Yes, I'm paying attention","I really liked this experience",29
+44,2026-01-30 11:18:51.624937,11,"user44@example.com",42,"Female","Bachelor's",4,3,4,4,4,4,5,4,4,4,NA,NA,NA,NA,NA,NA,NA,"Neutral","Yes, I'm paying attention","I really liked this experience",28
+45,2026-01-13 05:53:47.930525,8.3,"user45@example.com",44,"Other","Master's",3,2,3,3,3,4,4,4,4,4,"Salomon",NA,NA,"Brooks",NA,"Hoka",NA,NA,"Yes, I'm paying attention","I learned a lot from this",37
+46,2026-01-11 23:27:28.523079,7.5,"user46@example.com",18,NA,"Bachelor's",3,3,3,3,2,3,3,3,2,3,NA,"Topo","Saucony",NA,NA,NA,"A different brand, not listed here","Agree","Yes, I'm paying attention","I really liked this experience!",36
+47,2026-01-15 11:36:24.366361,6.7,"user47@example.com",67,"Female","Some college",2,3,3,3,3,3,4,3,3,4,NA,"Topo","Saucony",NA,NA,NA,"A different brand, not listed here","Strongly agree","Yes, I'm paying attention","Could use some improvement.",27
+48,2026-01-19 07:02:47.300228,7.4,"user48@example.com",32,"Female","Doctorate",2,2,2,2,2,4,4,4,3,4,NA,NA,NA,"Brooks","Asics",NA,"A different brand, not listed here","Agree","Yes, I'm paying attention","lorem ipsum 123!",30
+49,2026-01-30 07:02:58.635793,7.8,"user49@example.com",54,"Female","Doctorate",2,1,2,2,1,2,3,2,2,4,"Salomon",NA,NA,"Brooks","Asics",NA,NA,"Strongly agree","Yes, I'm paying attention","I really liked this experience.",37
+50,2026-01-25 10:32:12.803466,6.8,"user50@example.com",58,"Male","Master's",1,1,2,1,1,3,3,3,3,4,NA,"Topo",NA,"Brooks",NA,NA,NA,"Neutral","Yes, I'm paying attention","No strong opinion",42
+51,2026-01-06 16:16:49.611129,37.7,"user51@example.com",42,NA,"Master's",3,3,3,2,2,3,3,4,3,3,NA,"Topo",NA,NA,NA,NA,"A different brand, not listed here","Disagree","Yes, I'm paying attention","lorem ipsum 123!",41
+52,2026-01-28 15:18:55.433996,4.3,"user52@example.com",29,"Female","Bachelor's",2,2,3,2,2,3,4,4,4,4,NA,NA,NA,NA,NA,"Hoka",NA,"Agree","Yes, I'm paying attention","I learned a lot from this",20
+53,2026-01-09 14:59:20.868933,5.7,"user53@example.com",57,"Male","Bachelor's",3,2,3,3,3,2,2,2,3,4,"Salomon",NA,NA,NA,NA,"Hoka","A different brand, not listed here","Strongly agree","Yes, I'm paying attention","Well organized and clear",500
+54,2026-01-29 02:21:55.144602,8.1,"user54@example.com",57,NA,"Bachelor's",4,4,5,5,5,3,3,3,2,3,NA,NA,NA,NA,NA,NA,NA,"Neutral","Yes, I'm paying attention","It was confusing at times",29
+55,2026-01-24 19:21:20.431225,6.9,"user55@example.com",38,"Male","Some college",3,5,3,3,3,2,2,2,2,2,"Salomon",NA,NA,NA,"Asics",NA,NA,"Strongly agree","Yes, I'm paying attention","Well organized and clear",NA
+56,2026-01-07 23:49:35.746498,6.4,"user56@example.com",66,"Female","Some college",3,4,3,3,3,3,2,3,3,3,NA,NA,"Saucony",NA,NA,NA,NA,"Agree","Yes, I'm paying attention","I really liked this experience!",18
+57,2026-01-01 22:50:51.342078,5.8,"user57@example.com",44,"Female","Master's",3,3,2,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+58,2026-01-15 02:09:19.961291,7,"user58@example.com",45,"Female","Bachelor's",3,1,1,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+59,2026-01-18 01:17:33.668182,7.1,"user59@example.com",35,"Female","Master's",4,3,3,3,3,4,3,4,4,4,"Salomon","Topo",NA,NA,NA,NA,"A different brand, not listed here","Strongly agree","Yes, I'm paying attention","No strong opinion!",43
+60,2026-01-02 19:36:33.741137,5.7,"user60@example.com",39,"Female","Some college",3,4,3,3,2,4,4,4,5,4,NA,"Topo","Saucony",NA,NA,"Hoka",NA,"Agree","Yes, I'm paying attention","Not what I expected!",50
+61,2026-01-02 03:24:12.668928,4.3,"user61@example.com",38,"Female","High school",3,4,4,3,3,2,2,3,2,2,NA,NA,NA,NA,NA,NA,NA,"Neutral","Yes, I'm paying attention","Could use some improvement!",37
+62,2025-12-31 21:36:07.353444,3.9,"user62@example.com",53,NA,"Doctorate",3,2,2,2,3,4,3,4,3,3,NA,NA,NA,NA,"Asics",NA,NA,"Strongly agree","Yes, I'm paying attention","It was confusing at times!",27
+63,2026-01-30 03:14:22.097639,8.9,"user63@example.com",50,"Female","Some college",4,5,5,5,4,3,3,2,2,3,NA,NA,NA,NA,"Asics",NA,NA,"Strongly agree","Yes, I'm paying attention","No strong opinion",34
+64,2026-01-11 02:02:07.888278,7.2,"user64@example.com",55,"Male","Doctorate",4,4,5,4,5,2,1,1,2,2,NA,NA,NA,"Brooks",NA,NA,NA,"Agree","Yes, I'm paying attention","Not what I expected.",47
+65,2026-01-02 12:28:01.581265,7.4,"user65@example.com",55,"Male","Master's",4,4,4,5,5,3,3,2,3,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+66,2026-01-14 20:53:47.295123,6.4,"user66@example.com",38,"Female","Bachelor's",2,2,2,2,2,3,3,3,3,2,NA,"Topo",NA,NA,NA,NA,NA,"Strongly agree","Yes, I'm paying attention","Not what I expected.",23
+67,2026-01-06 23:41:34.372847,7.8,"user67@example.com",33,"Male","High school",4,3,4,4,4,3,4,3,4,3,NA,"Topo",NA,NA,NA,NA,"A different brand, not listed here","Agree","Yes, I'm paying attention","No strong opinion.",63
+68,2026-01-13 00:29:12.878645,7.7,"user68@example.com",31,"Male","Bachelor's",3,3,2,3,4,2,2,2,3,2,NA,NA,"Saucony",NA,"Asics","Hoka",NA,"Strongly agree","Yes, I'm paying attention","I learned a lot from this",36
+69,2026-01-20 08:29:36.398386,8.7,"user69@example.com",22,"Male","High school",3,2,3,2,2,3,3,4,4,3,NA,NA,NA,"Brooks",NA,"Hoka",NA,"Agree","Yes, I'm paying attention",NA,NA
+70,2026-01-21 13:06:02.852456,10.1,"user70@example.com",53,"Male","Some college",3,2,2,2,3,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+71,2026-01-01 08:35:59.820648,7.4,"user71@example.com",36,"Male","High school",3,3,3,2,3,2,2,1,2,1,NA,NA,NA,NA,NA,"Hoka",NA,"Strongly agree","Yes, I'm paying attention","I learned a lot from this!",46
+72,2026-01-01 19:34:32.486836,7.9,"user72@example.com",50,"Female","High school",3,3,3,2,3,3,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+73,2026-01-20 21:41:48.938395,6.2,"user73@example.com",73,"Female","High school",2,2,3,3,3,4,5,5,4,4,"Salomon",NA,NA,"Brooks",NA,"Hoka",NA,"Agree","Yes, I'm paying attention","Could use some improvement.",34
+74,2026-01-18 06:46:39.227949,5.4,"user74@example.com",26,"Male","High school",2,2,3,2,2,3,3,3,3,3,"Salomon","Topo",NA,NA,"Asics",NA,NA,"Agree","Yes, I'm paying attention","I really liked this experience.",50
+75,2026-01-04 15:19:02.875597,7.2,"user75@example.com",68,"Male","Bachelor's",4,3,4,4,4,3,3,2,3,3,NA,NA,NA,NA,NA,"Hoka",NA,"Agree","Yes, I'm paying attention","It was confusing at times",19
+76,2026-01-07 03:31:41.907489,6.5,"user76@example.com",32,"Male","Doctorate",4,4,4,4,4,4,4,4,4,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+77,2025-12-31 17:27:34.800052,6.2,"user77@example.com",52,"Female","High school",2,1,1,2,1,2,1,3,3,2,NA,NA,NA,NA,"Asics",NA,NA,"Disagree","Yes, I'm paying attention","No strong opinion.",44
+78,2026-01-02 06:31:39.843288,8,"user78@example.com",34,"Male","High school",3,3,3,2,2,1,1,1,1,1,NA,NA,NA,NA,NA,NA,NA,"Agree","Yes, I'm paying attention","Could use some improvement!",41
+79,2026-01-25 09:49:51.199267,6.5,"user79@example.com",59,"Female","Master's",3,3,3,2,3,4,4,3,4,5,NA,NA,NA,NA,NA,NA,NA,"Agree","Yes, I'm paying attention","Not what I expected",38
+80,2026-01-07 00:45:29.002017,8.8,"user80@example.com",56,"Female","Some college",4,3,2,3,4,3,2,2,3,3,"Salomon","Topo",NA,NA,NA,NA,NA,"Agree","Yes, I'm paying attention","lorem ipsum 123",24
+81,2026-01-13 20:16:16.175489,8.6,"user81@example.com",30,"Female","Some college",3,4,3,3,5,2,1,2,3,2,NA,NA,NA,NA,NA,NA,NA,"Agree",NA,"Not what I expected",26
+82,2026-01-12 14:41:21.623368,6.2,"user82@example.com",69,"Female","Doctorate",4,3,3,3,3,4,5,5,4,5,"Salomon",NA,NA,NA,"Asics","Hoka",NA,"Agree","Yes, I'm paying attention","zzzz aaa bbb.",46
+83,2026-01-28 05:39:24.340158,4.8,"user83@example.com",37,"Female","Doctorate",5,4,4,4,4,2,3,2,3,3,NA,NA,NA,NA,NA,NA,NA,"Agree","Yes, I'm paying attention","Well organized and clear.",39
+84,2026-01-29 20:32:02.214091,5.8,"user84@example.com",50,"Male","Doctorate",1,1,1,1,1,5,5,5,5,5,NA,NA,NA,NA,NA,NA,NA,"Strongly agree","Yes, I'm paying attention","blah blah blah.",29
+85,2026-01-13 02:41:00.358386,5.8,"user85@example.com",25,"Male","Bachelor's",4,3,3,3,4,3,2,3,2,2,NA,NA,NA,NA,NA,NA,NA,"Strongly agree","Yes, I'm paying attention","Could use some improvement!",28
+86,2026-01-21 05:48:14.676288,7.3,"user86@example.com",20,"Female","Some college",4,4,4,4,4,3,4,3,2,3,NA,NA,NA,NA,NA,"Hoka",NA,"Strongly agree","Yes, I'm paying attention","No strong opinion",38
+87,2026-01-23 14:23:47.219391,7,"user87@example.com",32,"Male","Bachelor's",1,2,2,2,2,4,3,4,4,3,NA,"Topo",NA,NA,NA,NA,NA,"Strongly agree","Yes, I'm paying attention","I learned a lot from this",49
+88,2026-01-28 15:16:21.831932,4.5,"user88@example.com",33,"Male","Some college",4,2,3,3,2,1,2,2,3,2,"Salomon","Topo",NA,NA,NA,"Hoka",NA,"Agree","Yes, I'm paying attention","Well organized and clear",41
+89,2026-01-22 02:08:54.041255,8.8,"user89@example.com",32,"Female","Bachelor's",4,3,4,3,3,3,3,2,1,3,NA,NA,NA,NA,NA,"Hoka","A different brand, not listed here","Agree","Yes, I'm paying attention","I really liked this experience!",21
+90,2026-01-06 21:07:22.492432,8.5,"user90@example.com",29,"Male","High school",2,3,2,2,2,2,4,3,3,3,NA,"Topo",NA,"Brooks",NA,NA,NA,"Strongly agree","Yes, I'm paying attention","I really liked this experience.",NA
+91,2026-01-04 12:33:06.012283,6.4,"user91@example.com",55,"Female","Bachelor's",3,2,3,3,2,4,3,3,4,3,NA,NA,NA,NA,"Asics",NA,NA,"Agree","Just clicking this button","It was confusing at times!",NA
+92,2026-01-14 09:07:00.14373,6.4,"user92@example.com",31,"Male","High school",3,2,2,3,3,5,4,5,3,4,NA,NA,NA,NA,NA,"Hoka","A different brand, not listed here","Disagree","Yes, I'm paying attention","No strong opinion!",16
+93,2026-01-19 18:33:41.01322,8.2,"user93@example.com",72,"Female","High school",5,4,5,5,5,4,3,3,3,3,"Salomon","Topo","Saucony",NA,NA,NA,NA,"Neutral","Yes, I'm paying attention","Well organized and clear.",18
+94,2026-01-28 21:23:14.588213,8,"user94@example.com",18,NA,"Some college",1,2,2,3,3,2,3,2,2,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+95,2026-01-25 08:28:34.255291,6.3,"user95@example.com",59,"Female","Some college",3,2,4,4,4,3,4,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+96,2026-01-05 10:01:58.794999,5.6,"user96@example.com",49,"Male","Some college",3,3,3,3,4,3,3,3,4,3,"Salomon",NA,NA,NA,NA,"Hoka","A different brand, not listed here","Strongly agree","Yes, I'm paying attention","I really liked this experience.",25
+97,2026-01-21 13:49:16.899339,6.9,"user97@example.com",52,"Male","Some college",2,2,2,2,3,5,5,4,4,5,NA,NA,"Saucony",NA,NA,NA,"A different brand, not listed here","Strongly agree","Yes, I'm paying attention","It was confusing at times!",34
+98,2026-01-03 15:32:21.123249,8,"user98@example.com",29,"Male","Bachelor's",2,2,2,2,2,2,2,2,2,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+99,2026-01-01 14:16:30.55111,7,"user99@example.com",56,"Other","Doctorate",3,3,2,3,3,5,3,4,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+100,2026-01-21 00:50:15.575317,7.8,"user100@example.com",67,"Male","Doctorate",3,4,4,4,3,1,1,2,2,1,NA,"Topo",NA,NA,"Asics",NA,NA,"Agree","Yes, I'm paying attention","It was confusing at times.",30
+101,2026-01-11 08:11:46.574859,7.5,"user101@example.com",75,"Female","Bachelor's",3,3,4,5,3,3,5,2,3,2,NA,NA,NA,NA,NA,NA,NA,"Strongly agree","Yes, I'm paying attention","I learned a lot from this!",NA
+102,2026-01-01 22:51:46.160127,7.2,"user102@example.com",31,"Male","Bachelor's",3,3,3,3,3,5,4,4,4,4,NA,NA,NA,NA,NA,NA,NA,"Agree","Yes, I'm paying attention","I learned a lot from this",46
+103,2026-01-16 13:57:19.144561,8,"user103@example.com",18,"Female","Doctorate",3,3,5,4,3,2,4,3,3,3,NA,NA,NA,NA,NA,NA,NA,"Strongly agree","Yes, I'm paying attention","It was confusing at times!",34
+104,2026-01-22 09:48:57.37554,8,"user104@example.com",18,"Male","Bachelor's",4,4,4,4,4,2,2,1,2,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+105,2026-01-20 15:52:18.633913,4.8,"user105@example.com",26,"Female","Doctorate",3,4,4,3,3,3,3,3,4,4,"Salomon",NA,"Saucony",NA,"Asics",NA,NA,"Strongly agree","Yes, I'm paying attention","It was confusing at times!",46
+106,2026-01-29 21:37:04.018516,9.5,"user106@example.com",55,"Female","Master's",4,4,3,3,4,3,2,3,3,4,"Salomon",NA,"Saucony",NA,NA,NA,"A different brand, not listed here","Neutral","Yes, I'm paying attention","Not what I expected!",31
+107,2026-01-04 12:00:26.455018,4.6,"user107@example.com",59,"Male","Some college",3,4,3,3,3,3,3,5,3,3,NA,NA,"Saucony","Brooks","Asics",NA,NA,"Agree","Yes, I'm paying attention","I really liked this experience!",21
+108,2026-01-23 06:23:15.009454,6.2,"user108@example.com",25,"Female","High school",3,3,3,4,4,2,3,3,4,3,NA,NA,NA,NA,NA,NA,NA,"Agree","Yes, I'm paying attention","lorem ipsum 123",33
+109,2026-01-10 11:53:21.178991,8.2,"user109@example.com",36,"Other","Master's",5,5,5,5,5,4,3,4,3,3,NA,"Topo",NA,NA,NA,NA,NA,"Agree","Yes, I'm paying attention","It was confusing at times",55
+110,2026-01-05 22:21:49.53853,6.5,"user110@example.com",35,"Female","Doctorate",3,3,3,2,3,4,4,4,3,4,"Salomon",NA,"Saucony",NA,"Asics",NA,NA,NA,NA,NA,NA
+111,2026-01-06 11:50:49.571565,7.2,"user111@example.com",31,"Female","Some college",2,2,2,1,2,4,3,3,3,3,NA,NA,NA,NA,NA,NA,NA,"Neutral","Yes, I'm paying attention","No strong opinion",43
+112,2026-01-05 19:51:42.149849,7.5,"user112@example.com",65,"Male","High school",3,4,4,4,4,4,4,3,3,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+113,2026-01-21 23:46:30.613243,5.6,"user113@example.com",28,"Female","Doctorate",3,3,2,2,3,4,4,4,4,4,NA,NA,NA,NA,NA,NA,NA,"Strongly agree","Yes, I'm paying attention","Not what I expected.",36
+114,2026-01-29 21:37:53.610884,6.8,"user114@example.com",59,"Male","Bachelor's",3,3,4,3,3,1,1,1,1,1,NA,NA,NA,NA,NA,NA,NA,"Neutral","Yes, I'm paying attention","It was confusing at times",41
+115,2026-01-25 08:47:44.194136,7.5,"user115@example.com",36,"Male","High school",4,3,3,2,3,3,3,4,4,4,NA,NA,NA,NA,NA,NA,NA,"Neutral","Yes, I'm paying attention","I learned a lot from this",NA
+116,2026-01-13 09:32:44.670375,5,"user116@example.com",19,"Male","Master's",3,3,3,4,4,2,2,3,2,2,NA,"Topo",NA,"Brooks","Asics",NA,NA,"Strongly agree","Yes, I'm paying attention","Not what I expected!",38
+117,2026-01-15 13:36:12.810774,8.9,"user117@example.com",68,"Female","Some college",3,2,3,3,2,3,3,3,3,3,NA,NA,NA,NA,NA,NA,NA,"Neutral","Yes, I'm paying attention","I really liked this experience.",40
+118,2026-01-29 09:48:05.70851,9.2,"user118@example.com",31,"Female","High school",1,1,1,1,1,3,2,4,4,4,NA,NA,NA,"Brooks",NA,NA,"A different brand, not listed here","Agree","Yes, I'm paying attention","I learned a lot from this!",44
+119,2026-01-16 07:15:29.560185,8.7,"user119@example.com",65,"Other","High school",3,2,2,3,2,2,2,2,2,2,NA,"Topo",NA,NA,NA,"Hoka",NA,"Agree","Yes, I'm paying attention","Could use some improvement!",15
+120,2026-01-21 06:12:33.642424,6.3,"user120@example.com",30,"Male","Master's",4,4,2,4,3,3,3,3,2,2,NA,NA,NA,"Brooks",NA,NA,NA,"Agree","Yes, I'm paying attention","I learned a lot from this.",33
+121,2026-01-19 09:27:20.474065,7,"user121@example.com",71,"Female","Some college",2,2,3,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+122,2026-01-04 15:51:13.291198,9.8,"user122@example.com",61,"Female","Bachelor's",3,3,3,3,2,4,4,4,4,4,NA,NA,NA,NA,NA,NA,"A different brand, not listed here","Agree","Yes, I'm paying attention","No strong opinion",43
+123,2026-01-12 08:30:49.436172,6.2,"user123@example.com",22,"Female","Doctorate",3,4,3,4,3,2,3,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+124,2026-01-02 22:15:11.809004,5.7,"user124@example.com",31,"Male","Some college",2,3,2,2,2,3,2,2,1,2,NA,NA,NA,NA,NA,NA,NA,"Strongly agree","Yes, I'm paying attention","It was confusing at times",39
+125,2026-01-13 09:13:36.176303,8.2,"user125@example.com",31,"Male","Doctorate",5,5,5,4,5,5,4,5,4,5,NA,NA,NA,NA,NA,NA,NA,"Agree","I'm definitely not paying attention","I learned a lot from this!",34
+126,2026-01-20 02:49:38.770943,9.5,"user126@example.com",18,"Female","Bachelor's",3,4,3,3,3,3,4,4,3,2,NA,NA,"Saucony",NA,NA,NA,NA,"Strongly agree","Yes, I'm paying attention","Not what I expected",32
+127,2026-01-18 01:50:56.824486,4.9,"user127@example.com",57,"Female","High school",2,2,1,2,2,3,4,4,3,4,"Salomon",NA,NA,"Brooks",NA,"Hoka",NA,"Strongly agree","Yes, I'm paying attention",NA,NA
+128,2026-01-08 07:09:54.790888,8.4,"user128@example.com",20,"Male","High school",4,4,3,3,4,2,2,3,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+129,2026-01-07 20:41:53.968113,9.6,"user129@example.com",20,"Female","Some college",3,3,3,3,3,1,2,3,2,2,"Salomon",NA,NA,NA,"Asics",NA,NA,"Agree","Yes, I'm paying attention","Well organized and clear!",36
+130,2026-01-30 03:23:30.398829,5.9,"user130@example.com",45,"Male","Some college",2,1,3,2,2,4,4,4,4,4,NA,NA,NA,"Brooks",NA,NA,"A different brand, not listed here","Agree","Yes, I'm paying attention","Could use some improvement!",44
+131,2025-12-31 21:25:40.01949,6.1,"user131@example.com",34,"Male","Bachelor's",5,4,5,4,4,3,5,3,4,3,NA,"Topo",NA,"Brooks",NA,"Hoka",NA,"Strongly agree","Yes, I'm paying attention","Could use some improvement",7
+132,2026-01-26 22:08:04.398045,6.5,"user132@example.com",46,"Female","Some college",3,3,3,2,3,4,3,3,4,3,NA,NA,NA,NA,NA,NA,NA,"Agree","Yes, I'm paying attention","No strong opinion.",24
+133,2026-01-10 17:31:44.895054,7.9,"user133@example.com",70,"Male","High school",1,1,1,1,1,2,1,2,2,3,"Salomon",NA,NA,"Brooks","Asics",NA,NA,"Strongly agree","Yes, I'm paying attention","Not what I expected!",50
+134,2026-01-22 10:32:33.691463,7.5,"user134@example.com",66,"Female","High school",4,5,5,3,4,3,3,4,3,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+135,2026-01-30 03:58:49.800731,7,"user135@example.com",56,"Male","Doctorate",3,2,3,1,2,4,4,4,4,4,NA,NA,NA,NA,NA,NA,NA,"Strongly agree","Yes, I'm paying attention","Not what I expected!",11
+136,2026-01-11 11:00:23.975625,7.2,"user136@example.com",58,"Male","Bachelor's",4,5,5,5,4,5,5,5,4,5,NA,NA,"Saucony",NA,"Asics",NA,NA,"Strongly agree","Yes, I'm paying attention","It was confusing at times",22
+137,2026-01-19 16:32:20.807687,6.3,"user137@example.com",63,"Male","Master's",5,5,5,4,4,1,3,1,2,2,NA,NA,NA,NA,NA,NA,NA,"Agree","Yes, I'm paying attention","I learned a lot from this!",52
+138,2026-01-28 19:00:07.677637,6,"user138@example.com",19,"Other","Master's",3,3,2,2,2,4,4,4,4,4,NA,NA,NA,"Brooks","Asics",NA,"A different brand, not listed here","Neutral","Yes, I'm paying attention","I really liked this experience",59
+139,2026-01-02 12:36:04.958245,6.8,"user139@example.com",47,"Female","Bachelor's",3,4,3,3,3,1,3,2,3,2,NA,"Topo",NA,"Brooks",NA,NA,"A different brand, not listed here","Agree","Yes, I'm paying attention","It was confusing at times.",39
+140,2026-01-07 14:48:33.879724,8.4,"user140@example.com",37,"Female","Bachelor's",4,3,4,3,3,3,3,2,2,3,NA,NA,NA,NA,"Asics",NA,NA,"Agree","Yes, I'm paying attention","asdf qwer zxcv.",39
+141,2026-01-02 00:16:53.618242,7.5,"user141@example.com",62,NA,"Doctorate",2,3,3,2,2,4,3,4,3,3,NA,"Topo",NA,"Brooks",NA,NA,NA,"Agree","Yes, I'm paying attention","It was confusing at times!",17
+142,2026-01-01 20:09:58.329258,25.6,"user142@example.com",28,"Male","Doctorate",3,3,4,3,4,4,3,3,2,3,NA,"Topo",NA,NA,"Asics","Hoka",NA,"Agree","Yes, I'm paying attention","I really liked this experience!",32
+143,2026-01-10 05:05:12.912299,6.6,"user143@example.com",73,"Male","Some college",3,3,3,3,3,3,4,4,4,4,"Salomon","Topo",NA,NA,NA,NA,NA,"Disagree","Yes, I'm paying attention","I really liked this experience!",37
+144,2026-01-18 19:13:25.984915,5,"user144@example.com",73,"Male","Some college",4,5,4,4,4,3,3,3,4,3,NA,"Topo",NA,NA,"Asics",NA,NA,"Agree",NA,"Could use some improvement!",30
+145,2026-01-26 05:36:40.091844,5.3,"user145@example.com",38,"Male","High school",2,2,2,2,2,3,4,3,3,3,NA,NA,NA,NA,"Asics",NA,NA,"Agree","Yes, I'm paying attention","Well organized and clear!",45
+146,2026-01-12 12:17:15.69199,6,"user146@example.com",67,NA,"Master's",3,3,3,3,4,4,4,4,3,5,NA,NA,NA,NA,"Asics",NA,"A different brand, not listed here","Neutral","Yes, I'm paying attention","asdf qwer zxcv",45
+147,2026-01-22 02:52:35.240073,4.6,"user147@example.com",62,"Male","Master's",4,4,4,4,4,5,4,4,5,5,NA,"Topo",NA,NA,"Asics",NA,NA,"Neutral","Yes, I'm paying attention","I really liked this experience",29
+148,2026-01-09 08:35:47.53027,4.2,"user148@example.com",72,"Male","Bachelor's",3,2,3,3,3,3,1,2,2,2,NA,NA,NA,NA,NA,NA,NA,"Strongly agree","Yes, I'm paying attention","zzzz aaa bbb.",51
+149,2026-01-01 12:48:47.903734,5.9,"user149@example.com",66,"Male","High school",1,1,1,2,1,2,3,3,3,3,"Salomon",NA,NA,"Brooks","Asics",NA,NA,"Strongly agree","Yes, I'm paying attention","It was confusing at times!",26
+150,2026-01-09 08:58:03.294298,7.4,"user150@example.com",44,"Male","Some college",1,2,2,2,2,2,3,2,2,2,NA,NA,NA,NA,NA,NA,"A different brand, not listed here","Agree","Yes, I'm paying attention","It was confusing at times.",33
+151,2026-01-29 10:44:23.297311,8.4,"user151@example.com",51,"Female","Some college",3,3,4,4,4,3,3,3,4,4,NA,NA,NA,NA,NA,NA,NA,"Strongly agree",NA,NA,NA
+152,2026-01-10 03:20:15.968783,5.7,"user152@example.com",63,"Female","Master's",4,3,3,3,4,3,2,3,3,2,NA,NA,NA,"Brooks",NA,NA,NA,"Strongly agree","Yes, I'm paying attention","Well organized and clear.",30
+153,2026-01-29 04:40:30.521949,6.4,"user153@example.com",38,"Male","High school",3,3,3,4,4,2,2,2,3,2,"Salomon",NA,NA,NA,NA,NA,NA,"Agree","Yes, I'm paying attention","No strong opinion.",33
+154,2026-01-04 07:45:46.578331,9.8,"user154@example.com",49,"Female","Doctorate",3,4,5,5,4,3,3,3,2,3,NA,NA,NA,NA,NA,NA,NA,"Agree","Yes, I'm paying attention","It was confusing at times",35
+155,2026-01-08 07:41:59.592156,4,"user155@example.com",55,"Male","Master's",3,2,2,3,3,4,3,4,4,3,NA,NA,NA,NA,NA,NA,NA,"Strongly agree","Yes, I'm paying attention","It was confusing at times.",500
+156,2026-01-11 02:03:15.488997,2.7,"user156@example.com",47,"Female","Master's",2,2,2,2,2,3,2,3,2,3,NA,NA,NA,"Brooks",NA,"Hoka",NA,"Agree","Yes, I'm paying attention","It was confusing at times!",22
+157,2026-01-28 22:50:04.95102,6.3,"user157@example.com",75,"Female","Master's",3,3,3,4,3,4,4,5,4,5,NA,NA,"Saucony",NA,NA,"Hoka",NA,"Disagree","Just here for the vibes","Could use some improvement.",29
+158,2026-01-26 15:52:49.499648,7,"user158@example.com",40,"Male","Bachelor's",3,3,3,3,3,3,3,3,3,3,NA,"Topo",NA,NA,NA,NA,NA,"Agree","Yes, I'm paying attention","It was confusing at times",42
+159,2026-01-15 06:30:09.485942,6.8,"user159@example.com",33,"Female","Some college",3,3,3,3,2,4,3,3,4,3,NA,NA,NA,NA,NA,"Hoka",NA,"Agree","Yes, I'm paying attention","No strong opinion.",39
+160,2026-01-09 23:30:07.33819,7.2,"user160@example.com",20,"Male","Master's",2,3,2,3,1,3,3,3,3,4,NA,NA,"Saucony",NA,"Asics",NA,NA,NA,NA,NA,NA
+161,2026-01-16 03:50:43.462673,6.9,"user161@example.com",45,"Male","High school",4,3,4,4,4,3,3,3,3,2,NA,NA,NA,"Brooks",NA,NA,"A different brand, not listed here","Agree","Yes, I'm paying attention","It was confusing at times.",22
+162,2026-01-18 21:19:42.473693,6.4,"user162@example.com",55,"Female","High school",3,3,3,3,2,3,2,3,2,3,NA,NA,NA,NA,NA,NA,NA,"Neutral",NA,NA,NA
+163,2026-01-08 11:45:13.949326,9.6,"user163@example.com",31,"Female","Doctorate",2,3,3,3,2,1,2,4,2,1,NA,NA,NA,NA,NA,NA,NA,"Strongly agree","Yes, I'm paying attention","Could use some improvement!",57
+164,2026-01-14 16:16:59.315803,5.3,"user164@example.com",73,"Male","High school",2,2,3,2,2,5,5,5,5,5,NA,"Topo","Saucony",NA,NA,"Hoka",NA,"Neutral","Yes, I'm paying attention","Well organized and clear",35
+165,2026-01-06 08:34:01.821489,7.9,"user165@example.com",21,"Female","Doctorate",3,3,3,3,4,5,4,4,5,4,NA,NA,"Saucony","Brooks",NA,NA,NA,"Strongly agree","Yes, I'm paying attention","I really liked this experience.",38
+166,2026-01-14 19:47:17.631791,6.5,"user166@example.com",29,"Male","Master's",2,1,1,2,1,4,3,5,4,3,NA,NA,NA,NA,NA,NA,NA,"Agree","Yes, I'm paying attention","I really liked this experience!",32
+167,2026-01-03 16:46:49.9421,7.5,"user167@example.com",68,"Male","High school",2,1,2,1,1,4,3,3,3,3,"Salomon",NA,"Saucony",NA,NA,NA,NA,"Strongly agree","Yes, I'm paying attention","It was confusing at times",18
+168,2026-01-29 09:38:04.260957,8.2,"user168@example.com",52,"Male","Master's",2,2,2,3,2,3,3,3,3,3,NA,NA,NA,NA,NA,"Hoka","A different brand, not listed here","Neutral","Yes, I'm paying attention","I really liked this experience.",44
+169,2026-01-13 06:41:09.253677,8.8,"user169@example.com",71,"Other","Some college",4,3,3,3,4,4,3,3,4,4,NA,NA,NA,"Brooks",NA,NA,NA,"Agree","Yes, I'm paying attention","zzzz aaa bbb",30
+170,2026-01-21 11:46:03.800635,7.4,"user170@example.com",74,"Male","High school",4,4,3,3,4,3,1,2,2,2,"Salomon",NA,NA,"Brooks","Asics",NA,NA,"Agree","Yes, I'm paying attention","It was confusing at times!",36
+171,2026-01-10 02:08:39.184606,9.2,"user171@example.com",29,"Male","Master's",1,2,2,2,2,2,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+172,2026-01-13 01:33:35.801567,7.1,"user172@example.com",45,"Female","Master's",3,3,4,4,3,3,2,2,1,2,NA,NA,"Saucony",NA,NA,"Hoka",NA,"Neutral","Yes, I'm paying attention","Could use some improvement.",43
+173,2026-01-16 14:23:17.667188,4.4,"user173@example.com",49,"Female","High school",1,2,3,2,3,3,3,3,3,3,"Salomon","Topo",NA,NA,"Asics",NA,NA,NA,NA,NA,NA
+174,2026-01-18 14:16:19.852274,7.1,"user174@example.com",50,"Female","Some college",4,4,4,4,4,3,3,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+175,2026-01-08 05:31:17.766857,6.3,"user175@example.com",22,"Male","Bachelor's",3,2,3,3,3,2,2,2,3,3,"Salomon",NA,NA,NA,NA,NA,NA,"Neutral","Yes, I'm paying attention","Well organized and clear!",39
+176,2026-01-16 15:20:21.614217,5.6,"user176@example.com",54,"Male","Bachelor's",3,2,3,2,2,3,2,2,3,2,"Salomon",NA,"Saucony",NA,NA,NA,NA,"Agree","Yes, I'm paying attention","Not what I expected",53
+177,2026-01-03 22:25:44.829992,4.6,"user177@example.com",24,"Male","High school",3,1,3,2,2,3,4,3,2,3,NA,NA,NA,NA,NA,NA,NA,"Neutral","Yes, I'm paying attention","No strong opinion",39
+178,2026-01-09 04:18:40.072006,6.8,"user178@example.com",73,"Female","High school",3,4,3,3,4,4,3,4,4,3,"Salomon",NA,"Saucony",NA,NA,"Hoka",NA,"Agree","Yes, I'm paying attention","asdf qwer zxcv!",32
+179,2026-01-10 07:53:14.482842,8.7,"user179@example.com",30,"Female","Some college",3,2,2,2,3,4,4,5,4,4,NA,NA,NA,NA,NA,NA,NA,"Agree","Yes, I'm paying attention","I learned a lot from this.",43
+180,2026-01-20 06:35:54.536777,4.9,"user180@example.com",31,"Female","Some college",4,5,5,3,4,2,4,3,2,2,NA,NA,NA,"Brooks",NA,NA,NA,"Agree","Yes, I'm paying attention","I learned a lot from this",26
+181,2026-01-19 04:23:51.825093,8.7,"user181@example.com",59,"Female","Doctorate",4,4,3,4,3,2,2,3,3,3,NA,"Topo",NA,NA,NA,NA,NA,"Neutral","Yes, I'm paying attention","Not what I expected!",NA
+182,2026-01-09 04:18:28.727469,6.9,"user182@example.com",45,"Male","Some college",3,2,2,3,3,5,4,5,4,4,NA,NA,NA,"Brooks",NA,NA,"A different brand, not listed here","Strongly agree","Yes, I'm paying attention","I learned a lot from this",31
+183,2026-01-29 01:59:55.505411,5.9,"user183@example.com",30,"Male","Doctorate",2,2,2,3,3,3,3,2,3,3,NA,NA,NA,NA,NA,NA,NA,"Neutral","Yes, I'm paying attention","qwerty uiop 789!",NA
+184,2026-01-01 19:11:41.981294,7.7,"user184@example.com",62,"Male","Doctorate",4,3,4,3,3,3,2,3,4,3,NA,NA,NA,NA,NA,NA,NA,"Neutral","Yes, I'm paying attention","Well organized and clear.",47
+185,2026-01-14 18:48:39.962277,8,"user185@example.com",55,"Male","High school",4,3,4,4,4,4,4,4,5,5,"Salomon","Topo",NA,"Brooks",NA,NA,NA,"Strongly agree","Yes, I'm paying attention","No strong opinion.",42
+186,2026-01-20 00:06:26.390744,5.6,"user186@example.com",70,"Male","Doctorate",2,2,2,1,1,4,2,4,4,3,NA,"Topo",NA,"Brooks","Asics",NA,NA,"Strongly agree","Yes, I'm paying attention","Well organized and clear",0
+187,2026-01-27 09:01:49.487036,7.9,"user187@example.com",75,"Male","Doctorate",2,3,2,2,2,4,4,4,4,4,NA,NA,NA,NA,NA,"Hoka",NA,"Agree","Yes, I'm paying attention","It was confusing at times",35
+188,2026-01-21 03:40:57.558388,10.1,"user188@example.com",31,"Female","Doctorate",2,1,1,1,2,1,1,2,1,2,NA,NA,NA,NA,NA,NA,NA,"Neutral","Yes, I'm paying attention","No strong opinion!",18
+189,2026-01-25 09:49:08.733595,7.4,"user189@example.com",50,"Male","Master's",2,3,2,2,1,2,2,3,3,3,NA,NA,NA,NA,NA,"Hoka",NA,"Agree","Yes, I'm paying attention","Could use some improvement.",22
+190,2026-01-27 09:48:48.627448,3.2,"user190@example.com",49,"Male","Doctorate",2,2,2,2,1,3,3,2,3,3,NA,NA,NA,"Brooks","Asics",NA,NA,"Agree","Yes, I'm paying attention","I learned a lot from this",35
+191,2026-01-11 09:22:42.761188,8.8,"user191@example.com",46,"Male","Some college",5,5,5,5,5,3,3,4,3,3,NA,NA,"Saucony","Brooks",NA,NA,"A different brand, not listed here","Neutral","Yes, I'm paying attention","Not what I expected.",31
+192,2026-01-07 23:23:38.683127,6.8,"user192@example.com",67,"Male","High school",2,2,1,1,1,4,5,3,3,4,"Salomon","Topo",NA,NA,NA,NA,NA,"Strongly agree","Yes, I'm paying attention","Could use some improvement!",49
+193,2026-01-03 02:34:07.02649,4.9,"user193@example.com",48,"Female","Some college",3,3,3,4,4,4,4,4,5,4,"Salomon",NA,"Saucony",NA,NA,NA,"A different brand, not listed here","Agree","Yes, I'm paying attention","No strong opinion.",43
+194,2026-01-13 04:16:08.047403,1.3,"user194@example.com",74,"Female","Some college",3,3,2,3,3,2,2,3,2,2,NA,NA,NA,NA,NA,NA,NA,"Neutral","Yes, I'm paying attention","No strong opinion.",43
+195,2026-01-02 17:25:53.017824,8.7,"user195@example.com",44,"Male","Bachelor's",3,3,2,2,2,3,4,3,4,3,NA,"Topo","Saucony","Brooks",NA,NA,NA,"Neutral","Yes, I'm paying attention","lorem ipsum 123",18
+196,2026-01-19 01:52:32.583452,6.4,"user297@example.com",65,"Female","Doctorate",3,2,2,3,1,2,3,2,2,1,"Salomon",NA,NA,"Brooks",NA,NA,"A different brand, not listed here","Neutral","Yes, I'm paying attention","Not what I expected.",50
+197,2026-01-12 21:00:35.778162,4.5,"user197@example.com",34,"Female","Bachelor's",2,3,2,2,3,1,1,1,2,1,"Salomon",NA,"Saucony",NA,"Asics",NA,NA,"Strongly agree","I'm definitely not paying attention","Not what I expected",35
+198,2026-01-28 19:21:25.12092,7.6,"user198@example.com",21,"Other","Doctorate",4,4,4,4,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+199,2026-01-23 21:52:18.499494,8.1,"user199@example.com",74,"Female","Doctorate",3,2,2,2,2,2,3,3,3,3,NA,NA,NA,NA,NA,NA,NA,"Strongly agree","Yes, I'm paying attention","It was confusing at times!",52
+200,2026-01-21 12:25:03.932178,7.8,"user200@example.com",36,"Male","Bachelor's",2,2,3,3,2,4,3,4,4,4,NA,NA,NA,NA,NA,NA,"A different brand, not listed here","Neutral","Yes, I'm paying attention","Not what I expected",41
+201,2026-01-26 11:51:14.071935,6.9,"user201@example.com",47,"Female","High school",3,4,4,2,4,3,4,4,3,4,NA,"Topo",NA,NA,NA,NA,NA,"Disagree","Yes, I'm paying attention","It was confusing at times.",31
+202,2026-01-27 16:52:08.528302,7.3,"user202@example.com",56,"Male","High school",4,4,4,3,4,3,3,3,3,2,NA,NA,"Saucony","Brooks",NA,NA,NA,"Neutral","Yes, I'm paying attention","I learned a lot from this",34
+203,2026-01-21 17:14:09.150107,8.8,"user203@example.com",47,"Female","Bachelor's",3,2,3,3,2,4,3,4,4,4,NA,NA,NA,NA,NA,"Hoka",NA,"Agree","Yes, I'm paying attention","I really liked this experience.",25
+204,2026-01-13 19:29:02.887296,9.2,"user204@example.com",60,"Male","Master's",4,2,4,4,4,3,2,2,2,2,NA,NA,"Saucony",NA,NA,"Hoka",NA,"Neutral","Yes, I'm paying attention","Could use some improvement!",37
+205,2026-01-27 14:45:04.87261,7,"user205@example.com",38,"Female","Bachelor's",3,2,4,4,4,4,3,4,3,3,NA,"Topo",NA,NA,NA,NA,NA,"Agree","Yes, I'm paying attention","It was confusing at times",500
+206,2026-01-12 18:59:22.107295,7.9,"user206@example.com",68,"Female","Master's",3,3,2,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+207,2026-01-04 11:42:29.969004,2.1,"user207@example.com",38,"Female","Bachelor's",2,3,3,3,3,4,4,4,4,3,NA,NA,"Saucony","Brooks",NA,NA,NA,"Agree","Yes, I'm paying attention","I really liked this experience",47
+208,2026-01-06 10:31:20.012644,6.3,"user208@example.com",22,"Male","Bachelor's",4,4,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+209,2026-01-21 09:17:38.218281,8.2,"user209@example.com",39,"Female","Master's",2,2,2,1,2,4,4,4,4,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+210,2026-01-24 00:33:49.154837,7,"user210@example.com",55,"Male","High school",3,4,5,4,4,2,3,3,2,3,NA,NA,NA,NA,NA,NA,NA,"Neutral","Yes, I'm paying attention","Not what I expected",32
+211,2026-01-30 01:10:04.864702,5.9,"user211@example.com",25,"Male","Master's",1,2,2,1,2,3,3,3,3,2,"Salomon",NA,NA,NA,"Asics",NA,NA,"Strongly agree","Yes, I'm paying attention","Well organized and clear.",39
+212,2026-01-16 07:01:07.58719,5.4,"user212@example.com",25,"Female","High school",4,4,4,4,4,4,4,4,3,3,NA,"Topo",NA,NA,NA,"Hoka",NA,"Agree","Yes, I'm paying attention","zzzz aaa bbb.",44
+213,2026-01-23 09:17:43.463837,8.2,"user213@example.com",23,"Female","Bachelor's",4,4,4,4,4,3,4,3,3,4,NA,NA,NA,NA,NA,NA,"A different brand, not listed here","Strongly agree","Yes, I'm paying attention","It was confusing at times",54
+214,2026-01-25 14:37:19.797925,9.1,"user214@example.com",70,"Female","Bachelor's",3,2,2,2,2,3,3,3,2,2,"Salomon","Topo",NA,NA,NA,NA,"A different brand, not listed here","Strongly agree","Yes, I'm paying attention","I learned a lot from this!",25
+215,2026-01-01 22:01:42.653787,6.2,"user215@example.com",44,"Male","Some college",2,3,3,3,2,4,3,3,3,3,NA,"Topo",NA,NA,NA,NA,NA,"Neutral","Yes, I'm paying attention","I learned a lot from this!",46
+216,2026-01-11 16:43:42.6231,7.2,"user216@example.com",26,"Other","Some college",4,4,4,4,4,2,3,3,2,2,NA,"Topo",NA,NA,NA,NA,NA,NA,NA,NA,NA
+217,2026-01-16 02:37:14.428048,8.1,"user217@example.com",24,"Female","Bachelor's",5,4,4,4,4,4,4,4,3,4,NA,NA,"Saucony",NA,"Asics","Hoka",NA,"Strongly agree","Yes, I'm paying attention","I learned a lot from this",35
+218,2026-01-10 02:13:44.304255,7.3,"user218@example.com",75,"Female","Some college",3,3,3,3,3,4,3,5,5,3,"Salomon",NA,NA,NA,"Asics",NA,NA,"Neutral",NA,"Could use some improvement",61
+219,2026-01-28 13:54:23.871885,5.7,"user219@example.com",24,"Male","Doctorate",5,4,3,4,4,4,3,3,4,3,NA,NA,NA,NA,NA,NA,"A different brand, not listed here","Strongly agree","Yes, I'm paying attention","Not what I expected!",18
+220,2026-01-30 01:01:01.6697,8.1,"user220@example.com",18,"Male","Doctorate",3,4,3,3,3,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+221,2026-01-09 09:12:12.565491,5.1,"user221@example.com",30,"Female","Bachelor's",4,4,3,3,4,3,3,3,2,3,"Salomon",NA,"Saucony",NA,NA,NA,NA,"Neutral","I'm definitely not paying attention","No strong opinion",NA
+222,2026-01-26 03:35:35.825271,6,"user222@example.com",62,"Male","Some college",2,2,2,2,2,3,3,4,4,3,NA,"Topo",NA,"Brooks",NA,NA,NA,"Disagree","Yes, I'm paying attention","I really liked this experience",20
+223,2026-01-19 12:49:34.107105,7,"user223@example.com",61,"Female","Master's",3,2,3,4,2,1,2,2,3,3,NA,NA,NA,NA,"Asics",NA,NA,"Neutral","Yes, I'm paying attention","Not what I expected!",45
+224,2026-01-01 21:53:27.912958,7.5,"user224@example.com",68,"Female","Master's",1,1,1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+225,2026-01-07 11:19:41.642329,8.8,"user225@example.com",20,"Female","High school",3,4,4,5,4,3,3,4,3,4,"Salomon","Topo",NA,NA,NA,NA,NA,"Neutral","Yes, I'm paying attention","Could use some improvement",41
+226,2026-01-18 15:17:29.51855,9.1,"user226@example.com",46,"Male","Some college",4,3,3,3,3,2,2,2,2,1,NA,NA,NA,NA,"Asics",NA,NA,"Neutral","Yes, I'm paying attention","It was confusing at times",21
+227,2026-01-24 07:31:39.549935,2.8,"user227@example.com",22,"Male","High school",3,3,3,3,3,3,2,3,4,2,NA,NA,NA,NA,NA,NA,NA,"Strongly agree","Yes, I'm paying attention","I learned a lot from this",41
+228,2026-01-17 11:11:32.895231,6.9,"user228@example.com",47,"Female","High school",3,3,2,3,2,3,3,3,3,3,"Salomon",NA,"Saucony",NA,NA,NA,"A different brand, not listed here","Agree","Yes, I'm paying attention","Could use some improvement.",35
+229,2026-01-21 21:59:40.719224,7.6,"user229@example.com",43,"Male","Doctorate",3,2,2,2,2,2,3,2,2,2,NA,NA,NA,NA,NA,NA,NA,"Agree","Just clicking this button","No strong opinion.",NA
+230,2026-01-08 17:28:48.684222,5.8,"user230@example.com",49,"Male","Master's",3,4,4,4,3,4,5,4,3,5,NA,"Topo",NA,NA,"Asics",NA,NA,"Agree","Yes, I'm paying attention","It was confusing at times",57
+231,2026-01-24 17:29:22.715701,9.7,"user231@example.com",47,"Female","High school",2,2,2,2,2,2,4,3,2,2,NA,"Topo","Saucony",NA,NA,NA,NA,"Strongly agree","Yes, I'm paying attention","Not what I expected!",41
+232,2026-01-07 01:22:23.650837,9,"user232@example.com",65,NA,"Master's",3,3,3,3,3,2,3,2,1,2,NA,NA,"Saucony",NA,NA,NA,NA,"Agree","Yes, I'm paying attention","I learned a lot from this.",32
+233,2026-01-11 17:12:39.333052,3.1,"user233@example.com",72,"Male","Some college",4,3,3,4,3,3,2,2,3,3,NA,"Topo",NA,NA,NA,NA,NA,"Agree","Yes, I'm paying attention","It was confusing at times",30
+234,2026-01-02 02:40:58.486258,6.2,"user234@example.com",22,"Male","Master's",5,4,4,5,4,4,4,4,4,3,NA,NA,NA,NA,NA,NA,"A different brand, not listed here","Neutral","Just here for the vibes","I really liked this experience!",48
+235,2026-01-25 14:40:29.916387,8,"user235@example.com",51,"Male","Doctorate",3,3,3,3,3,1,2,3,2,2,"Salomon",NA,NA,"Brooks",NA,NA,NA,"Strongly agree","Yes, I'm paying attention","No strong opinion!",19
+236,2026-01-09 23:05:15.056604,8,"user236@example.com",29,"Male","Doctorate",3,3,2,2,2,3,4,5,3,3,NA,NA,NA,"Brooks","Asics",NA,"A different brand, not listed here","Neutral","Yes, I'm paying attention","Could use some improvement.",36
+237,2026-01-20 22:12:15.244119,7.8,"user12@example.com",67,"Female","Some college",2,2,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+238,2026-01-16 20:16:16.487738,47.2,"user238@example.com",70,NA,"Doctorate",3,3,3,4,4,3,3,2,3,4,"Salomon",NA,NA,NA,NA,"Hoka",NA,"Neutral","Yes, I'm paying attention","No strong opinion.",14
+239,2026-01-06 23:14:40.985701,4.5,"user239@example.com",19,"Male","Bachelor's",3,3,2,3,3,5,5,5,4,5,NA,NA,NA,NA,NA,NA,NA,"Neutral","Yes, I'm paying attention","Could use some improvement!",26
+240,2026-01-25 21:29:00.126834,5,"user240@example.com",54,"Female","Some college",3,4,3,4,3,1,1,1,1,1,NA,NA,NA,NA,"Asics",NA,"A different brand, not listed here",NA,"Yes, I'm paying attention","It was confusing at times!",30
+241,2026-01-26 22:16:21.870301,9.4,"user241@example.com",29,"Male","High school",2,2,2,2,3,3,3,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+242,2026-01-03 07:48:22.568151,5.9,"user242@example.com",37,"Male","Doctorate",3,3,4,4,4,2,2,2,2,3,NA,"Topo",NA,"Brooks",NA,NA,"A different brand, not listed here","Strongly agree","Yes, I'm paying attention","I really liked this experience!",35
+243,2026-01-17 04:37:03.557109,7,"user243@example.com",56,"Female","Some college",3,4,3,4,4,2,2,2,2,1,NA,NA,"Saucony","Brooks","Asics",NA,NA,"Neutral","Yes, I'm paying attention","qwerty uiop 789!",34
+244,2026-01-24 08:38:40.310866,6.4,"user244@example.com",21,"Female","Master's",4,4,4,4,3,3,2,2,1,2,NA,"Topo",NA,NA,NA,NA,NA,"Neutral","Yes, I'm paying attention","It was confusing at times",29
+245,2026-01-11 15:35:51.653026,7.5,"user245@example.com",62,"Female","Bachelor's",4,4,3,3,4,3,3,4,3,3,NA,NA,NA,NA,NA,NA,"A different brand, not listed here","Agree","Yes, I'm paying attention","I really liked this experience!",32
+246,2026-01-18 12:33:40.047424,7.5,"user246@example.com",51,"Male","High school",3,2,3,3,2,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+247,2026-01-15 23:30:48.289567,5.6,"user247@example.com",60,"Male","Bachelor's",1,2,2,2,2,2,1,2,1,1,"Salomon","Topo",NA,NA,NA,"Hoka",NA,"Strongly agree","Yes, I'm paying attention","No strong opinion.",47
+248,2026-01-02 21:24:03.767105,7,"user248@example.com",35,"Female","Bachelor's",3,2,2,2,2,4,4,5,4,5,NA,NA,NA,NA,NA,NA,NA,"Strongly agree","Yes, I'm paying attention","Could use some improvement.",28
+249,2026-01-05 06:54:11.585141,4.5,"user249@example.com",45,"Female","High school",1,3,3,3,2,3,3,3,3,3,"Salomon",NA,NA,"Brooks","Asics",NA,NA,"Strongly agree","Yes, I'm paying attention","I really liked this experience.",NA
+250,2026-01-20 06:23:58.957073,6.9,"user250@example.com",42,"Male","Bachelor's",1,3,3,3,2,3,2,4,2,3,NA,NA,NA,NA,NA,"Hoka",NA,"Strongly agree","Yes, I'm paying attention","Could use some improvement",24
+251,2026-01-05 14:11:27.396367,5.8,"user251@example.com",31,NA,"Doctorate",4,4,5,5,5,2,3,4,3,3,NA,"Topo",NA,NA,NA,NA,NA,"Agree","Yes, I'm paying attention","Could use some improvement",30
+252,2026-01-25 23:22:03.147375,6.4,"user252@example.com",22,"Female","High school",3,4,4,4,3,3,4,3,3,3,NA,"Topo",NA,NA,"Asics","Hoka",NA,"Agree","Yes, I'm paying attention","Well organized and clear.",48
+253,2026-01-28 20:29:25.032405,7.4,"user253@example.com",31,"Male","High school",3,3,4,3,3,4,4,4,3,3,"Salomon","Topo","Saucony",NA,NA,NA,NA,"Strongly agree","Yes, I'm paying attention","I really liked this experience.",47
+254,2026-01-14 00:41:21.961273,8.4,"user254@example.com",53,"Male","Bachelor's",4,3,3,4,4,2,3,2,2,3,"Salomon",NA,NA,NA,NA,NA,NA,"Agree","Yes, I'm paying attention","Not what I expected",52
+255,2026-01-03 11:31:39.884138,6.4,"user255@example.com",62,"Female","High school",2,2,3,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+256,2026-01-08 00:50:13.936179,6.1,"user256@example.com",55,"Male","Master's",4,4,3,4,4,3,3,3,3,3,NA,"Topo",NA,NA,NA,NA,NA,"Agree","Yes, I'm paying attention","Well organized and clear",47
+257,2026-01-03 23:50:38.196451,6.5,"user257@example.com",67,"Female","Some college",2,3,2,2,2,2,2,3,2,3,"Salomon",NA,NA,NA,NA,"Hoka","A different brand, not listed here","Strongly agree","Yes, I'm paying attention","Not what I expected!",34
+258,2026-01-28 07:06:58.440205,4.6,"user258@example.com",45,"Female","Master's",1,2,3,2,3,3,3,3,3,3,NA,NA,NA,NA,"Asics",NA,"A different brand, not listed here","Agree","Yes, I'm paying attention","No strong opinion!",10
+259,2026-01-30 04:41:28.727105,6.6,"user259@example.com",70,"Female","Doctorate",4,3,3,4,3,2,3,3,2,3,NA,"Topo",NA,"Brooks",NA,NA,NA,"Agree","Yes, I'm paying attention","Not what I expected!",33
+260,2026-01-16 06:03:52.2226,9.2,"user260@example.com",59,"Female","Bachelor's",3,3,2,4,3,2,3,2,2,3,NA,NA,"Saucony",NA,NA,"Hoka",NA,"Neutral","Yes, I'm paying attention","Could use some improvement.",46
+261,2026-01-16 06:10:59.439957,4.4,"user261@example.com",53,"Male","Bachelor's",3,4,3,3,4,5,5,5,5,5,NA,NA,NA,NA,NA,NA,NA,"Disagree","Yes, I'm paying attention","I really liked this experience.",45
+262,2026-01-30 04:31:20.368908,5.2,"user262@example.com",38,"Female","Some college",1,1,1,2,3,3,4,4,4,3,"Salomon",NA,NA,NA,"Asics",NA,"A different brand, not listed here","Strongly agree","Yes, I'm paying attention","zzzz aaa bbb.",14
+263,2026-01-11 03:01:54.819335,6.9,"user263@example.com",52,"Female","Master's",2,1,2,2,3,1,2,3,2,1,NA,NA,NA,NA,NA,NA,NA,"Disagree","Yes, I'm paying attention","Could use some improvement.",49
+264,2026-01-29 20:16:13.227084,7.2,"user264@example.com",25,"Male","High school",3,3,3,3,3,3,4,4,3,4,NA,NA,"Saucony",NA,NA,NA,"A different brand, not listed here","Agree","Yes, I'm paying attention","It was confusing at times!",49
+265,2026-01-12 00:43:24.888227,0.8,"user265@example.com",46,"Female","Some college",5,5,5,4,4,2,2,2,2,2,NA,NA,NA,"Brooks",NA,NA,"A different brand, not listed here","Agree",NA,"Not what I expected!",12
+266,2026-01-10 15:41:36.254376,10.7,"user266@example.com",56,"Female","High school",3,2,3,2,3,4,4,4,5,4,NA,NA,"Saucony",NA,NA,NA,NA,"Disagree","Yes, I'm paying attention","I really liked this experience.",46
+267,2026-01-23 23:03:02.36,9,"user267@example.com",62,"Male","High school",4,4,3,5,4,4,3,3,3,3,"Salomon",NA,NA,NA,NA,"Hoka",NA,"Agree","Yes, I'm paying attention","I learned a lot from this",32
+268,2026-01-12 06:28:32.347423,4.5,"user268@example.com",34,"Other","Bachelor's",1,2,2,2,3,4,4,4,5,5,"Salomon","Topo",NA,"Brooks",NA,NA,NA,"Strongly agree","Yes, I'm paying attention","Well organized and clear.",34
+269,2026-01-24 10:38:22.900754,8.8,"user269@example.com",47,"Male","Some college",2,2,3,3,2,1,2,1,1,2,NA,NA,NA,NA,NA,NA,NA,"Disagree","Yes, I'm paying attention",NA,NA
+270,2026-01-10 19:34:06.070685,8.8,"user270@example.com",20,"Female","Bachelor's",3,4,3,5,4,3,4,3,3,3,"Salomon",NA,NA,NA,NA,NA,"A different brand, not listed here","Strongly agree","Yes, I'm paying attention","No strong opinion.",26
+271,2026-01-07 11:02:59.948908,7.7,"user271@example.com",56,"Male","Doctorate",3,2,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+272,2026-01-15 09:39:11.47391,2.9,"user272@example.com",68,"Male","High school",4,4,3,3,3,4,2,4,3,4,"Salomon",NA,NA,NA,"Asics",NA,NA,"Agree","Yes, I'm paying attention","I really liked this experience!",38
+273,2026-01-27 13:52:45.248119,8.5,"user273@example.com",69,"Female","Master's",2,2,1,1,1,3,3,3,3,2,"Salomon",NA,NA,NA,NA,"Hoka",NA,"Agree","Yes, I'm paying attention","It was confusing at times.",40
+274,2026-01-12 21:13:14.861552,5.2,"user274@example.com",37,"Female","High school",5,4,3,4,3,3,3,3,4,4,NA,NA,NA,NA,"Asics","Hoka",NA,"Agree","Yes, I'm paying attention","Well organized and clear!",47
+275,2026-01-02 12:39:25.512981,4.8,"user275@example.com",22,"Female","Doctorate",4,3,3,5,4,3,2,3,3,4,NA,"Topo",NA,NA,"Asics",NA,"A different brand, not listed here","Agree","Yes, I'm paying attention","It was confusing at times.",49
+276,2026-01-18 14:17:48.890415,9.3,"user276@example.com",57,"Female","Bachelor's",3,4,3,3,2,4,3,2,3,3,NA,NA,NA,NA,NA,NA,NA,"Agree","I'm definitely not paying attention","Not what I expected.",46
+277,2026-01-27 23:11:04.024174,7.6,"user277@example.com",68,"Female","Master's",3,3,3,3,2,3,2,3,2,1,"Salomon","Topo",NA,NA,NA,NA,NA,NA,"Yes, I'm paying attention","Well organized and clear",43
+278,2026-01-11 10:20:43.5685,6,"user278@example.com",23,"Female","Doctorate",2,2,2,1,2,5,4,5,4,5,NA,NA,NA,NA,NA,NA,"A different brand, not listed here",NA,"Yes, I'm paying attention","I really liked this experience",49
+279,2026-01-17 20:35:12.485479,8,"user279@example.com",34,"Male","Doctorate",3,3,4,3,3,2,2,1,1,2,"Salomon",NA,NA,"Brooks",NA,"Hoka",NA,"Agree","Yes, I'm paying attention","Well organized and clear.",43
+280,2026-01-05 23:09:50.198222,6.2,"user280@example.com",31,"Male","Some college",4,3,3,3,3,2,2,2,2,2,NA,"Topo",NA,NA,"Asics",NA,NA,"Neutral","Yes, I'm paying attention","qwerty uiop 789!",26
+281,2026-01-24 23:32:35.929418,6.9,"user281@example.com",64,"Female","High school",2,3,3,3,2,5,5,5,5,5,NA,NA,NA,NA,NA,NA,NA,"Agree","Yes, I'm paying attention","I learned a lot from this.",46
+282,2026-01-16 16:58:47.518212,7.8,"user282@example.com",57,"Female","Some college",2,2,3,3,2,2,2,2,3,3,NA,"Topo",NA,NA,NA,NA,NA,NA,NA,NA,NA
+283,2026-01-05 00:46:18.266727,9.8,"user283@example.com",75,"Male","Bachelor's",1,2,2,1,1,1,2,2,1,1,NA,NA,NA,NA,NA,NA,NA,"Agree","Yes, I'm paying attention","Could use some improvement!",37
+284,2026-01-26 08:17:19.078789,5.9,"user284@example.com",63,"Male","Some college",3,2,2,3,3,5,5,5,4,4,NA,NA,NA,"Brooks","Asics","Hoka",NA,"Neutral","Yes, I'm paying attention","Could use some improvement.",34
+285,2026-01-05 18:12:42.946095,5,"user285@example.com",21,NA,"Bachelor's",2,2,2,2,2,3,2,3,2,3,NA,NA,"Saucony","Brooks","Asics",NA,NA,"Neutral","Yes, I'm paying attention","Could use some improvement",NA
+286,2026-01-03 22:00:11.408013,10.3,"user286@example.com",54,"Female","Some college",5,5,5,4,5,4,4,3,5,4,NA,NA,NA,NA,NA,"Hoka",NA,"Agree","Yes, I'm paying attention","It was confusing at times.",30
+287,2026-01-30 03:36:39.415672,5.8,"user287@example.com",39,"Female","Master's",4,3,3,3,3,1,3,2,2,2,"Salomon","Topo",NA,NA,"Asics",NA,NA,"Strongly agree",NA,"It was confusing at times.",NA
+288,2026-01-08 10:10:43.895591,5.7,"user288@example.com",37,"Male","Bachelor's",2,3,2,2,2,4,4,4,4,4,NA,NA,NA,NA,NA,NA,NA,"Agree","Yes, I'm paying attention","I really liked this experience!",39
+289,2026-01-15 17:39:04.524132,6.1,"user289@example.com",28,"Male","Bachelor's",2,2,3,3,2,2,1,2,2,1,NA,NA,NA,NA,NA,NA,NA,"Neutral","Yes, I'm paying attention","Well organized and clear.",42
+290,2026-01-14 22:58:28.400593,5.8,"user290@example.com",62,"Female","Some college",1,1,1,1,1,4,4,4,4,4,"Salomon",NA,NA,NA,"Asics",NA,NA,"Strongly agree","Yes, I'm paying attention","Not what I expected!",52
+291,2026-01-21 07:42:40.399458,5.4,"user291@example.com",22,"Male","Master's",4,3,3,3,3,4,4,4,3,5,NA,NA,NA,NA,"Asics",NA,NA,"Agree","Yes, I'm paying attention","Could use some improvement",27
+292,2026-01-24 22:11:19.177958,6.4,"user292@example.com",30,"Male","Some college",3,3,3,3,3,2,2,2,3,2,NA,NA,NA,NA,NA,NA,NA,"Agree","I'm definitely not paying attention","Not what I expected",41
+293,2026-01-28 21:40:27.367162,7.5,"user293@example.com",21,"Female","Bachelor's",5,4,5,4,4,4,4,4,5,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+294,2026-01-03 09:02:48.887317,9.2,"user294@example.com",70,"Male","High school",3,4,4,3,4,3,2,5,4,3,NA,NA,NA,NA,NA,NA,NA,"Agree","Yes, I'm paying attention","It was confusing at times!",37
+295,2026-01-04 05:41:06.840387,8.1,"user295@example.com",58,"Female","Doctorate",3,2,2,2,3,2,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+296,2026-01-03 10:53:11.874931,7.5,"user296@example.com",24,"Male","Some college",4,4,4,3,3,2,3,2,3,3,NA,NA,"Saucony","Brooks",NA,"Hoka",NA,"Agree","Yes, I'm paying attention","Could use some improvement.",22
+297,2026-01-24 03:56:42.802144,6.6,"user297@example.com",66,"Male","Doctorate",3,2,3,3,3,3,2,2,3,3,NA,NA,NA,NA,NA,NA,NA,"Strongly agree","Yes, I'm paying attention","Well organized and clear.",11
+298,2026-01-15 12:10:19.108492,7.4,"user298@example.com",30,"Male","Bachelor's",3,2,3,3,2,4,3,3,3,3,NA,NA,NA,NA,NA,NA,NA,"Agree",NA,NA,NA
+299,2026-01-19 03:59:38.271722,5.4,"user299@example.com",24,"Male","Bachelor's",2,2,4,2,2,4,4,3,5,4,"Salomon",NA,NA,"Brooks",NA,NA,"A different brand, not listed here","Strongly agree","Yes, I'm paying attention","No strong opinion.",43
+300,2026-01-25 21:54:40.949496,3.9,"user300@example.com",66,"Female","Bachelor's",1,2,2,2,2,2,3,2,4,3,NA,NA,NA,NA,NA,NA,NA,"Neutral","Yes, I'm paying attention","Could use some improvement.",41
+301,2026-01-21 00:27:05.538801,7.2,"user301@example.com",35,"Female","Doctorate",2,1,2,1,2,4,5,4,4,4,NA,NA,NA,NA,NA,NA,NA,"Agree","Yes, I'm paying attention",NA,NA
+302,2026-01-12 10:51:49.52245,7.4,"user302@example.com",75,"Female","Some college",3,3,3,3,4,3,4,4,4,4,NA,NA,NA,NA,NA,NA,NA,"Agree","Yes, I'm paying attention","No strong opinion.",43
+303,2026-01-09 01:15:20.758704,8,"user303@example.com",26,"Male","Doctorate",3,2,3,3,3,4,3,4,4,3,NA,"Topo",NA,NA,NA,NA,NA,NA,"Yes, I'm paying attention","Not what I expected",54
+304,2026-01-25 01:14:47.783908,0.1,"user304@example.com",69,"Female","Some college",3,3,3,3,3,1,1,3,2,1,NA,NA,NA,NA,"Asics",NA,NA,"Disagree","Yes, I'm paying attention","No strong opinion!",NA
+305,2026-01-29 13:36:04.711562,5.7,"user305@example.com",64,"Female","Master's",3,4,3,4,3,2,2,3,4,2,NA,"Topo","Saucony",NA,NA,NA,"A different brand, not listed here","Agree","Yes, I'm paying attention","Could use some improvement",44
+306,2025-12-31 16:00:32.519386,6,"user306@example.com",67,"Male","Master's",2,2,2,2,2,3,3,3,3,3,NA,NA,NA,NA,NA,NA,NA,"Strongly agree","Yes, I'm paying attention","I learned a lot from this.",47
+307,2026-01-08 15:05:12.864328,7.6,"user307@example.com",30,"Male","Master's",4,4,4,5,4,4,3,3,4,3,NA,NA,NA,NA,NA,"Hoka",NA,"Agree","Yes, I'm paying attention","Not what I expected!",27
+308,2026-01-02 21:30:02.419354,6.2,"user308@example.com",20,"Female","Master's",3,3,3,4,4,3,2,3,3,4,NA,NA,NA,NA,NA,NA,NA,"Strongly agree","Yes, I'm paying attention","Not what I expected",56
+309,2026-01-30 09:26:36.037452,6.1,"user309@example.com",74,"Female","Master's",2,3,2,2,2,2,2,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+310,2026-01-17 00:49:51.139199,7.6,"user310@example.com",35,"Female","Master's",5,4,5,3,3,3,4,3,3,4,NA,NA,NA,"Brooks","Asics",NA,NA,NA,NA,NA,NA
+311,2026-01-14 15:02:20.859709,5.1,"user311@example.com",54,"Male","Master's",3,2,2,3,2,4,4,4,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+312,2026-01-19 13:30:15.38294,4.1,"user77@example.com",30,"Male","Doctorate",4,5,4,4,4,4,3,3,3,4,NA,NA,NA,NA,NA,"Hoka",NA,"Neutral","Yes, I'm paying attention","I really liked this experience",32
+313,2026-01-11 18:33:06.292386,5,"user313@example.com",64,"Male","High school",2,2,2,3,2,1,2,1,1,1,NA,NA,NA,"Brooks","Asics","Hoka",NA,"Strongly agree","Yes, I'm paying attention","I learned a lot from this",23
+314,2026-01-14 19:49:16.103085,6.1,"user314@example.com",74,"Male","Master's",1,1,1,2,1,4,3,3,4,3,NA,"Topo",NA,NA,NA,"Hoka",NA,"Disagree",NA,NA,NA
+315,2026-01-24 05:17:59.855957,6.6,"user315@example.com",56,"Male","Bachelor's",3,4,3,3,4,2,2,2,3,3,NA,"Topo","Saucony",NA,NA,"Hoka",NA,"Agree","Yes, I'm paying attention","Could use some improvement!",45
+316,2026-01-22 02:08:53.132992,7.5,"user316@example.com",43,"Female","Some college",3,3,3,4,4,3,2,3,2,3,NA,NA,"Saucony",NA,"Asics",NA,"A different brand, not listed here","Strongly agree","Yes, I'm paying attention","Could use some improvement.",39
+317,2026-01-23 10:00:42.776944,6.3,"user317@example.com",48,"Female","High school",2,1,2,2,3,3,2,3,3,4,"Salomon",NA,NA,NA,NA,NA,NA,"Strongly agree","Yes, I'm paying attention","Could use some improvement.",22
+318,2026-01-30 11:51:09.030241,9.5,"user318@example.com",45,"Female","Bachelor's",3,2,3,3,3,2,3,3,3,2,NA,"Topo",NA,NA,NA,NA,"A different brand, not listed here","Agree","Yes, I'm paying attention","I learned a lot from this!",35
+319,2026-01-17 00:02:21.549948,9,"user319@example.com",25,"Female","Doctorate",1,2,3,3,3,5,3,4,4,4,NA,NA,NA,NA,"Asics",NA,"A different brand, not listed here","Agree","Yes, I'm paying attention","Not what I expected.",27
+320,2026-01-15 00:20:32.685893,8.8,"user320@example.com",62,"Male","High school",1,3,2,3,2,2,3,3,3,3,NA,"Topo","Saucony",NA,NA,NA,NA,NA,NA,NA,NA
+321,2026-01-18 04:51:56.462022,6.2,"user321@example.com",29,"Male","Bachelor's",2,3,4,3,3,2,2,3,2,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+322,2026-01-10 01:33:20.473105,8,"user322@example.com",47,"Male","Doctorate",2,2,2,2,3,2,1,1,2,2,NA,NA,NA,"Brooks","Asics","Hoka",NA,"Strongly agree","Yes, I'm paying attention","Not what I expected.",37
+323,2026-01-08 01:47:32.898214,6.9,"user323@example.com",69,"Female","Doctorate",4,4,4,4,3,3,2,2,2,3,NA,"Topo",NA,NA,"Asics","Hoka",NA,"Agree","Yes, I'm paying attention","I really liked this experience!",45
+324,2026-01-26 00:19:17.903035,7,"user324@example.com",68,"Male","Some college",4,4,5,4,3,2,2,1,3,2,NA,NA,NA,NA,NA,NA,NA,"Agree","Yes, I'm paying attention","lorem ipsum 123!",47
+325,2026-01-23 20:00:45.774782,5.9,"user325@example.com",65,"Female","Doctorate",2,2,3,2,3,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+326,2026-01-30 08:42:19.263691,4.7,"user326@example.com",53,"Male","Doctorate",3,3,3,3,3,3,5,3,3,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+327,2026-01-07 13:59:07.145665,7.8,"user327@example.com",62,"Male","Some college",3,3,3,3,2,3,2,1,1,2,"Salomon",NA,NA,NA,NA,NA,NA,"Neutral","Yes, I'm paying attention","Not what I expected!",28
+328,2026-01-13 17:47:41.473692,7,"user328@example.com",64,"Male","High school",3,2,3,4,3,4,4,4,5,3,NA,"Topo",NA,"Brooks",NA,NA,"A different brand, not listed here","Neutral","Yes, I'm paying attention","Not what I expected.",16
+329,2026-01-21 19:34:17.963881,4.6,"user329@example.com",59,"Male","High school",3,3,3,3,3,1,2,1,1,1,"Salomon",NA,NA,"Brooks",NA,NA,NA,"Agree","Yes, I'm paying attention","qwerty uiop 789",32
+330,2026-01-02 02:35:08.853875,8.4,"user330@example.com",21,"Female","Bachelor's",3,3,4,3,4,4,4,4,4,4,NA,"Topo","Saucony",NA,NA,NA,NA,"Agree","Yes, I'm paying attention","Could use some improvement!",34
+331,2026-01-15 15:03:58.235443,6.3,"user331@example.com",30,"Female","Doctorate",3,3,2,3,3,2,2,2,1,2,"Salomon",NA,NA,NA,"Asics",NA,NA,NA,NA,NA,NA
+332,2026-01-11 01:43:43.81038,2.1,"user332@example.com",24,"Female","High school",4,5,5,5,5,5,4,5,5,4,NA,NA,"Saucony",NA,"Asics",NA,NA,"Agree","Yes, I'm paying attention","Could use some improvement!",31
+333,2026-01-29 07:24:23.458959,8.7,"user333@example.com",58,"Female","Some college",2,2,3,2,2,2,3,3,2,4,NA,"Topo","Saucony",NA,NA,NA,NA,"Strongly agree","Yes, I'm paying attention","Not what I expected!",34
+334,2026-01-11 02:58:05.360109,7.9,"user334@example.com",65,"Male","Doctorate",2,1,1,1,2,3,4,3,3,4,NA,NA,NA,"Brooks","Asics",NA,NA,"Strongly agree","Yes, I'm paying attention","lorem ipsum 123.",37
+335,2026-01-20 00:34:56.069461,8.2,"user335@example.com",31,"Male","Doctorate",5,4,5,4,4,5,4,5,5,5,NA,NA,NA,NA,NA,NA,NA,"Agree","Yes, I'm paying attention","Could use some improvement!",9
+336,2026-01-20 19:34:12.839306,6,"user336@example.com",61,"Female","High school",4,5,3,4,4,2,2,3,2,2,NA,NA,NA,NA,NA,NA,NA,"Neutral","Yes, I'm paying attention","Well organized and clear",26
+337,2026-01-09 06:07:40.40527,7.3,"user337@example.com",71,"Male","Some college",2,3,3,3,2,2,3,3,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+338,2026-01-25 19:18:42.484868,8,"user338@example.com",59,"Female","Bachelor's",2,3,2,3,3,1,2,3,2,1,NA,NA,"Saucony","Brooks",NA,NA,"A different brand, not listed here","Agree","Yes, I'm paying attention","qwerty uiop 789!",32
+339,2026-01-09 09:39:17.119142,4.4,"user339@example.com",34,"Female","Master's",4,3,3,2,2,3,3,2,1,3,NA,NA,NA,NA,NA,NA,NA,"Strongly agree","Yes, I'm paying attention","No strong opinion.",36
+340,2026-01-01 21:33:11.632893,6.9,"user340@example.com",75,"Female","Doctorate",3,3,3,3,3,5,4,5,4,4,NA,"Topo","Saucony",NA,NA,NA,"A different brand, not listed here","Neutral",NA,NA,NA
+341,2026-01-13 11:17:05.611069,5.9,"user341@example.com",33,"Male","Master's",3,2,2,3,2,2,3,2,3,2,NA,NA,NA,NA,NA,NA,NA,"Neutral","Yes, I'm paying attention","It was confusing at times",34
+342,2026-01-26 05:50:26.394543,5.1,"user342@example.com",52,"Male","Some college",3,4,4,4,4,5,4,4,4,5,"Salomon",NA,NA,NA,NA,NA,NA,"Strongly agree","Yes, I'm paying attention","No strong opinion!",49
+343,2026-01-11 17:25:32.432057,9.3,"user343@example.com",47,"Male","High school",3,3,3,4,3,1,2,2,2,2,NA,"Topo",NA,NA,"Asics",NA,"A different brand, not listed here","Neutral","Yes, I'm paying attention","It was confusing at times!",31
+344,2026-01-30 03:55:39.503634,3.9,"user344@example.com",38,"Male","Bachelor's",4,2,2,2,2,3,2,2,2,3,NA,"Topo",NA,"Brooks","Asics",NA,NA,NA,NA,NA,NA
+345,2026-01-12 07:05:16.534622,8,"user345@example.com",23,"Female","Some college",4,4,4,4,3,4,3,2,2,3,NA,"Topo",NA,"Brooks",NA,"Hoka",NA,"Agree","Just here for the vibes","Well organized and clear!",50
+346,2026-01-15 18:52:44.441619,7,"user346@example.com",36,"Male","High school",3,2,2,3,3,3,3,3,4,4,NA,NA,NA,NA,NA,NA,"A different brand, not listed here","Strongly agree","Yes, I'm paying attention","It was confusing at times!",60
+347,2026-01-01 03:11:58.543479,7,"user347@example.com",57,"Male","Some college",2,2,4,3,3,3,3,3,3,4,NA,"Topo",NA,NA,NA,NA,NA,"Strongly agree","I'm definitely not paying attention","Not what I expected!",33
+348,2026-01-16 11:35:15.581861,8.2,"user348@example.com",60,"Male","Master's",3,3,3,4,2,2,3,3,2,2,NA,NA,NA,NA,NA,"Hoka",NA,"Agree","Yes, I'm paying attention","It was confusing at times.",22
+349,2026-01-08 20:25:33.794472,6.4,"user349@example.com",24,"Male","Some college",2,3,3,4,3,3,4,4,3,3,NA,NA,NA,NA,"Asics",NA,NA,"Agree","Yes, I'm paying attention","I learned a lot from this",45
+350,2026-01-07 23:36:57.06383,7.9,"user350@example.com",18,"Female","High school",5,5,5,4,5,3,3,3,2,3,NA,NA,"Saucony",NA,"Asics","Hoka",NA,"Agree","Yes, I'm paying attention","Not what I expected.",36
+351,2026-01-04 10:56:56.439474,4.9,"user351@example.com",38,"Female","Master's",4,4,4,5,5,2,3,2,3,2,NA,NA,NA,NA,NA,NA,NA,"Strongly agree","Yes, I'm paying attention","Not what I expected.",46
+352,2026-01-10 21:39:15.130136,7.2,"user352@example.com",58,NA,"Master's",3,3,4,3,3,2,3,4,3,2,"Salomon",NA,NA,NA,"Asics","Hoka",NA,"Strongly agree","Yes, I'm paying attention","Not what I expected!",21
+353,2026-01-24 22:59:11.768291,4,"user353@example.com",74,"Other","Some college",4,4,3,3,5,3,4,3,3,3,NA,"Topo",NA,"Brooks",NA,NA,NA,NA,NA,NA,NA
+354,2026-01-24 05:18:07.445535,1,"user354@example.com",51,"Female","High school",3,3,3,2,3,1,3,3,2,3,NA,NA,NA,NA,NA,NA,NA,"Strongly agree","Yes, I'm paying attention","Could use some improvement!",37
+355,2026-01-21 03:44:35.936805,9.1,"user355@example.com",71,"Male","High school",4,5,5,4,4,3,3,4,3,4,NA,"Topo",NA,NA,NA,NA,NA,"Neutral","Yes, I'm paying attention","Could use some improvement!",39
+356,2025-12-31 22:05:48.871844,5.2,"user47@example.com",60,"Other","Bachelor's",2,3,2,2,4,4,4,5,4,3,"Salomon","Topo",NA,NA,NA,"Hoka",NA,"Agree","Yes, I'm paying attention","Could use some improvement.",33
+357,2026-01-30 12:03:34.209059,7.8,"user357@example.com",24,"Male","Doctorate",3,3,2,3,4,1,1,1,1,1,"Salomon","Topo",NA,"Brooks",NA,NA,NA,"Disagree","Yes, I'm paying attention","Not what I expected!",40
+358,2026-01-18 12:51:57.453662,6.3,"user358@example.com",43,"Male","Some college",3,3,3,2,3,2,2,2,2,2,NA,"Topo","Saucony",NA,NA,NA,"A different brand, not listed here","Agree","Yes, I'm paying attention","I learned a lot from this",34
+359,2026-01-29 04:21:29.091206,9,"user359@example.com",35,"Female","Doctorate",3,5,3,4,3,3,4,4,5,3,NA,NA,"Saucony","Brooks",NA,NA,NA,"Strongly agree","Yes, I'm paying attention","Could use some improvement.",31
+360,2026-01-02 21:20:02.377347,6.4,"user360@example.com",20,"Male","Master's",4,5,4,4,4,2,4,4,2,2,NA,NA,NA,NA,NA,NA,NA,"Strongly agree","Yes, I'm paying attention","It was confusing at times",31
+361,2026-01-10 16:38:24.104328,5.1,"user361@example.com",38,"Female","High school",3,3,2,2,2,3,3,3,3,4,NA,"Topo",NA,"Brooks",NA,NA,NA,NA,"Yes, I'm paying attention","It was confusing at times.",31
+362,2026-01-10 02:47:34.884068,8.3,"user362@example.com",33,"Female","High school",3,3,3,3,3,4,4,3,3,4,NA,NA,NA,NA,NA,NA,NA,"Agree","Yes, I'm paying attention","I learned a lot from this!",22
+363,2026-01-19 13:44:04.604755,7.5,"user363@example.com",22,NA,"Some college",3,4,4,4,4,3,2,3,3,4,"Salomon","Topo",NA,NA,NA,NA,NA,"Agree","Yes, I'm paying attention","I learned a lot from this",44
+364,2026-01-29 19:22:20.757592,6.5,"user364@example.com",33,"Female","Some college",4,3,3,2,3,3,3,3,3,3,NA,NA,NA,NA,NA,NA,NA,"Disagree","Yes, I'm paying attention","I really liked this experience!",21
+365,2026-01-12 13:24:33.419637,7.5,"user365@example.com",65,"Male","Doctorate",3,2,2,4,3,3,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+366,2026-01-25 11:49:59.504164,7.8,"user366@example.com",54,"Male","Doctorate",4,4,4,3,4,4,3,5,3,4,"Salomon",NA,NA,NA,NA,"Hoka",NA,NA,"Yes, I'm paying attention","I learned a lot from this",NA
+367,2026-01-08 22:11:21.752798,8.6,"user367@example.com",60,"Male","Bachelor's",2,3,3,4,2,3,3,3,4,3,NA,NA,"Saucony",NA,"Asics",NA,NA,"Strongly agree","Yes, I'm paying attention","Not what I expected!",30
+368,2026-01-07 05:21:47.723801,7.8,"user232@example.com",60,"Male","Some college",3,4,3,3,4,3,3,3,3,3,NA,NA,NA,NA,NA,NA,NA,"Strongly agree","Yes, I'm paying attention","It was confusing at times!",30
+369,2026-01-26 22:59:21.587148,7,"user369@example.com",42,"Female","Bachelor's",2,3,3,3,3,2,3,3,2,2,NA,"Topo",NA,"Brooks","Asics",NA,NA,"Agree","Yes, I'm paying attention","It was confusing at times!",49
+370,2026-01-02 20:31:31.239244,5.2,"user370@example.com",49,"Male","Some college",2,1,2,2,2,5,4,5,4,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+371,2026-01-18 14:08:11.328672,7.3,"user371@example.com",22,"Female","Some college",3,4,3,3,3,3,3,3,2,2,NA,NA,"Saucony",NA,NA,NA,NA,"Strongly agree","Yes, I'm paying attention","Well organized and clear",45
+372,2026-01-15 05:35:46.437256,5.8,"user372@example.com",60,"Female","Bachelor's",2,2,3,3,3,2,1,2,1,2,NA,NA,"Saucony",NA,NA,NA,NA,"Agree","Yes, I'm paying attention","Not what I expected",43
+373,2026-01-10 19:51:04.009038,9,"user373@example.com",71,"Female","Bachelor's",3,3,4,3,3,4,5,4,3,3,NA,NA,NA,NA,NA,NA,NA,"Strongly agree","Yes, I'm paying attention","I learned a lot from this.",18
+374,2026-01-10 03:09:33.732677,7.4,"user374@example.com",37,"Female","Master's",3,3,3,3,4,2,3,2,2,3,NA,"Topo",NA,NA,NA,NA,"A different brand, not listed here","Strongly agree","Yes, I'm paying attention","I really liked this experience!",47
+375,2026-01-25 09:57:17.058647,6.4,"user375@example.com",26,"Female","Some college",2,2,3,2,2,3,3,3,3,3,"Salomon",NA,NA,NA,"Asics",NA,NA,"Agree","Yes, I'm paying attention","No strong opinion",34
+376,2026-01-13 14:27:20.779689,7.1,"user376@example.com",75,"Male","Doctorate",3,3,3,3,4,3,2,3,2,3,NA,NA,NA,NA,"Asics",NA,NA,"Agree","Yes, I'm paying attention","Could use some improvement",24
+377,2026-01-18 07:51:17.471246,8.9,"user377@example.com",28,"Male","Doctorate",4,3,4,3,4,3,4,4,4,3,NA,NA,NA,NA,NA,NA,NA,"Agree","Yes, I'm paying attention","Could use some improvement.",38
+378,2026-01-05 18:59:44.447387,8.1,"user378@example.com",47,"Male","Some college",4,5,4,5,4,3,3,2,3,2,NA,NA,"Saucony",NA,NA,NA,NA,"Agree","Yes, I'm paying attention","asdf qwer zxcv",29
+379,2026-01-20 10:58:59.690747,7.4,"user379@example.com",18,"Female","Master's",4,3,4,3,3,4,4,3,3,4,NA,"Topo",NA,NA,NA,NA,NA,"Neutral","Yes, I'm paying attention","lorem ipsum 123!",50
+380,2026-01-24 16:28:34.808511,9.3,"user380@example.com",18,"Female","Master's",1,1,2,2,3,3,3,3,3,3,NA,"Topo","Saucony",NA,"Asics",NA,NA,"Strongly agree","Yes, I'm paying attention","Could use some improvement",38
+381,2026-01-01 16:43:41.916606,9.1,"user381@example.com",36,"Male","Doctorate",4,3,3,4,4,3,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+382,2026-01-20 23:34:12.607912,7.1,"user382@example.com",49,"Female","Bachelor's",4,4,3,4,4,3,3,3,4,4,"Salomon",NA,NA,NA,"Asics",NA,NA,"Strongly agree","Yes, I'm paying attention","I really liked this experience!",41
+383,2026-01-19 05:06:45.048914,4.2,"user383@example.com",53,"Male","Doctorate",3,4,3,3,2,3,4,3,3,4,NA,NA,NA,NA,NA,NA,NA,"Agree","Yes, I'm paying attention","It was confusing at times.",22
+384,2026-01-09 19:20:35.704249,8,"user384@example.com",35,"Female","Bachelor's",3,3,4,3,3,3,2,2,4,2,NA,NA,NA,"Brooks","Asics","Hoka",NA,"Neutral","Yes, I'm paying attention","No strong opinion!",43
+385,2026-01-19 22:45:05.98692,8.2,"user385@example.com",61,"Female","High school",2,2,1,2,2,1,3,2,2,2,NA,NA,NA,NA,"Asics",NA,NA,"Agree","Yes, I'm paying attention","Could use some improvement!",44
+386,2026-01-09 13:17:06.0905,9.8,"user386@example.com",31,"Female","Some college",3,3,2,3,3,3,3,2,2,2,NA,NA,NA,NA,"Asics","Hoka",NA,"Strongly agree","Yes, I'm paying attention","I learned a lot from this!",41
+387,2026-01-20 12:06:46.068811,8.7,"user387@example.com",28,"Male","Master's",3,3,3,3,3,3,2,2,3,3,NA,NA,"Saucony",NA,NA,NA,NA,"Agree","Yes, I'm paying attention","It was confusing at times",39
+388,2026-01-16 02:08:58.399227,8.3,"user388@example.com",41,"Male","Bachelor's",4,4,5,4,4,2,1,1,1,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+389,2026-01-26 01:43:03.580664,6.9,"user389@example.com",50,"Other","High school",2,3,3,3,2,3,2,3,3,2,NA,"Topo",NA,NA,NA,"Hoka",NA,"Neutral","Yes, I'm paying attention","zzzz aaa bbb.",24
+390,2026-01-01 16:06:20.655377,8,"user390@example.com",50,"Male","Master's",4,3,2,2,3,2,3,3,2,2,NA,NA,NA,"Brooks",NA,NA,NA,"Neutral","I'm definitely not paying attention","I really liked this experience!",45
+391,2026-01-09 19:11:43.29374,5.2,"user391@example.com",22,"Male","Master's",3,3,3,3,2,4,3,4,3,3,NA,NA,NA,NA,NA,NA,NA,"Neutral","Yes, I'm paying attention","I really liked this experience",30
+392,2026-01-23 10:19:48.749002,6.4,"user392@example.com",27,"Male","Some college",4,3,3,2,3,5,5,4,5,5,NA,NA,NA,NA,NA,NA,NA,"Agree","Yes, I'm paying attention","I learned a lot from this",42
+393,2026-01-15 12:35:39.88238,6.8,"user393@example.com",37,"Male","Master's",1,2,2,2,1,4,3,5,3,4,NA,"Topo",NA,NA,"Asics","Hoka",NA,"Neutral","Yes, I'm paying attention","I really liked this experience.",40
+394,2026-01-25 11:46:38.948221,7,"user394@example.com",30,"Female","Master's",4,4,4,4,5,4,2,3,3,3,NA,NA,NA,"Brooks",NA,NA,NA,"Neutral","Yes, I'm paying attention","I learned a lot from this.",45
+395,2026-01-25 17:57:11.066619,2.2,"user395@example.com",28,"Male","Doctorate",2,1,2,2,2,4,5,4,4,4,"Salomon",NA,"Saucony","Brooks",NA,NA,NA,"Agree","Yes, I'm paying attention","I really liked this experience!",36
+396,2026-01-22 23:10:22.336209,9.1,"user396@example.com",36,"Female","Doctorate",2,2,3,3,2,2,1,1,1,2,NA,NA,NA,NA,NA,NA,NA,"Agree",NA,NA,NA
+397,2026-01-16 22:57:54.067003,7.2,"user397@example.com",57,"Female","Some college",3,3,3,2,4,2,3,2,2,3,NA,NA,"Saucony",NA,NA,NA,NA,NA,NA,NA,NA
+398,2026-01-06 19:08:41.232929,8.2,"user398@example.com",72,"Female","Bachelor's",3,3,3,3,3,1,1,1,1,1,NA,"Topo","Saucony","Brooks",NA,NA,NA,"Neutral","Yes, I'm paying attention","Well organized and clear.",27
+399,2026-01-05 15:02:56.213651,7.5,"user399@example.com",75,"Male","High school",1,1,1,1,2,2,2,3,3,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+400,2026-01-26 18:30:50.846531,8,"user400@example.com",71,"Female","Some college",2,1,2,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+401,2026-01-23 07:38:25.532967,8,"user401@example.com",60,"Male","Some college",2,3,3,3,3,4,4,5,5,5,"Salomon",NA,"Saucony",NA,NA,NA,"A different brand, not listed here","Strongly agree","Yes, I'm paying attention","Not what I expected",48
+402,2026-01-22 02:17:55.260407,7.3,"user402@example.com",70,"Male","Master's",4,4,4,4,4,2,3,3,2,2,NA,NA,NA,"Brooks",NA,"Hoka",NA,"Strongly agree","Yes, I'm paying attention","It was confusing at times",29
+403,2026-01-09 11:00:53.823421,6.4,"user403@example.com",51,"Female","Some college",4,3,4,4,3,2,1,2,1,1,NA,NA,NA,NA,NA,"Hoka","A different brand, not listed here","Disagree","Yes, I'm paying attention","Well organized and clear.",40
+404,2026-01-15 18:02:21.345161,7,"user404@example.com",23,"Female","Master's",2,2,3,2,2,2,3,3,3,3,NA,NA,NA,NA,NA,NA,NA,"Neutral","Yes, I'm paying attention","It was confusing at times",25
+405,2026-01-23 07:27:06.599413,10.4,"user405@example.com",22,"Female","Doctorate",2,2,1,1,2,1,2,2,1,2,NA,"Topo","Saucony","Brooks",NA,NA,NA,"Agree","Yes, I'm paying attention","It was confusing at times!",29
+406,2026-01-23 10:14:18.26196,8.3,"user406@example.com",25,"Male","Some college",3,4,3,3,3,3,2,3,2,2,NA,NA,NA,NA,NA,NA,NA,"Agree","Yes, I'm paying attention","No strong opinion!",NA
+407,2026-01-27 15:51:46.982465,5.8,"user407@example.com",34,"Female","High school",2,2,2,2,1,4,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+408,2026-01-03 04:17:40.983733,1.6,"user408@example.com",65,"Female","Bachelor's",2,1,2,2,2,3,3,3,3,2,"Salomon","Topo",NA,NA,"Asics",NA,NA,"Agree","Yes, I'm paying attention","It was confusing at times",22
+409,2026-01-14 14:19:49.600161,7.5,"user409@example.com",62,"Male","High school",3,4,3,3,2,3,4,3,3,2,NA,NA,NA,NA,NA,NA,NA,"Agree","Just here for the vibes","Could use some improvement.",48
+410,2026-01-19 10:26:13.604569,7.7,"user410@example.com",74,NA,"Bachelor's",4,3,5,4,4,3,3,2,3,3,NA,NA,"Saucony",NA,NA,NA,"A different brand, not listed here","Strongly agree","Yes, I'm paying attention","Could use some improvement.",23
+411,2026-01-02 19:17:05.451759,6.7,"user411@example.com",61,"Male","Master's",3,4,3,3,3,5,5,3,5,5,NA,NA,NA,NA,NA,NA,NA,"Neutral","Yes, I'm paying attention","No strong opinion.",55
+412,2026-01-12 05:19:30.091677,8.3,"user412@example.com",49,"Female","Some college",2,1,1,2,2,2,2,3,2,3,NA,NA,"Saucony",NA,NA,NA,NA,"Neutral","Yes, I'm paying attention","I really liked this experience.",53
+413,2026-01-08 06:08:00.013813,4.3,"user378@example.com",74,"Male","Some college",3,3,2,2,2,4,2,2,3,3,NA,NA,NA,NA,"Asics",NA,NA,"Agree","Yes, I'm paying attention","asdf qwer zxcv.",18
+414,2026-01-06 22:02:11.982737,8,"user414@example.com",34,"Female","Bachelor's",2,3,2,3,2,2,2,3,3,2,NA,NA,NA,NA,NA,NA,NA,"Neutral","Yes, I'm paying attention","It was confusing at times.",42
+415,2026-01-16 21:02:53.582404,6.9,"user415@example.com",21,"Male","High school",2,2,2,3,2,1,2,2,2,3,NA,NA,NA,NA,"Asics",NA,"A different brand, not listed here","Strongly agree","Just clicking this button","No strong opinion!",49
+416,2026-01-09 14:12:56.063881,3.9,"user416@example.com",33,"Other","Bachelor's",1,1,2,2,3,4,4,5,5,5,NA,"Topo",NA,NA,NA,NA,NA,"Neutral","Yes, I'm paying attention","I learned a lot from this.",24
+417,2026-01-22 03:32:34.463028,6.1,"user417@example.com",48,"Male","Bachelor's",3,2,3,2,4,3,3,3,4,3,NA,NA,"Saucony",NA,"Asics","Hoka",NA,"Neutral","Yes, I'm paying attention","I learned a lot from this.",38
+418,2026-01-14 18:38:55.474198,7.1,"user418@example.com",54,"Female","Some college",1,2,2,2,2,3,3,4,3,3,NA,NA,NA,NA,NA,NA,NA,"Neutral","Yes, I'm paying attention","asdf qwer zxcv",33
+419,2026-01-26 04:01:50.929582,6.1,"user419@example.com",61,"Female","Some college",4,2,2,3,3,5,5,4,5,5,NA,NA,"Saucony","Brooks","Asics",NA,NA,"Agree","Yes, I'm paying attention","I learned a lot from this",NA
+420,2026-01-20 03:39:25.216422,8.3,"user420@example.com",29,"Male","Master's",4,4,4,4,4,5,4,4,3,4,"Salomon",NA,NA,NA,NA,NA,NA,"Disagree","Yes, I'm paying attention","Could use some improvement.",43
+421,2026-01-12 01:24:20.296151,5.2,"user421@example.com",39,"Male","Doctorate",4,4,5,4,5,4,3,4,4,4,NA,"Topo",NA,"Brooks",NA,"Hoka",NA,"Neutral","Yes, I'm paying attention","Well organized and clear.",48
+422,2026-01-26 21:59:49.682563,7.1,"user422@example.com",56,"Female","Master's",3,3,3,3,3,3,5,2,4,3,NA,NA,NA,"Brooks",NA,NA,"A different brand, not listed here","Strongly agree","Yes, I'm paying attention","No strong opinion!",23
+423,2026-01-20 12:06:34.239062,6.6,"user423@example.com",31,"Female","Bachelor's",4,3,4,4,4,2,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+424,2026-01-22 22:47:29.816798,5.4,"user424@example.com",20,"Female","Doctorate",2,2,1,2,2,2,3,3,3,4,"Salomon","Topo",NA,NA,NA,NA,NA,NA,NA,NA,NA
+425,2026-01-27 16:35:24.069658,7.1,"user425@example.com",67,"Female","Some college",2,3,2,2,3,5,5,5,5,4,NA,NA,NA,NA,NA,NA,NA,"Strongly agree","Yes, I'm paying attention","Not what I expected!",34
+426,2026-01-23 11:51:57.486063,5.9,"user322@example.com",70,"Male","High school",4,4,3,4,4,2,2,3,3,3,"Salomon",NA,NA,NA,NA,NA,"A different brand, not listed here","Neutral","Yes, I'm paying attention","blah blah blah",36
+427,2026-01-05 03:22:37.753571,4.5,"user427@example.com",54,"Female","Doctorate",3,3,3,2,2,4,3,4,4,4,NA,NA,NA,NA,NA,NA,NA,"Agree","Yes, I'm paying attention","blah blah blah.",NA
+428,2026-01-15 20:35:05.487971,6.7,"user428@example.com",29,"Female","Some college",3,5,4,4,4,3,2,2,2,3,NA,"Topo",NA,NA,NA,NA,NA,"Agree","Yes, I'm paying attention","Well organized and clear!",28
+429,2026-01-17 02:22:23.05296,7.4,"user429@example.com",45,"Male","Master's",3,4,4,3,2,4,4,4,3,4,"Salomon","Topo","Saucony",NA,NA,NA,NA,"Strongly agree",NA,"Well organized and clear!",32
+430,2026-01-15 19:19:49.99466,6.9,"user430@example.com",44,"Female","Bachelor's",3,3,2,2,3,3,3,4,4,3,"Salomon",NA,NA,NA,NA,NA,"A different brand, not listed here","Strongly agree","Yes, I'm paying attention","Well organized and clear",63
+431,2026-01-07 11:35:10.582371,8.5,"user431@example.com",26,"Female","Doctorate",3,4,3,3,3,4,3,4,4,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+432,2026-01-29 23:32:00.92136,6.5,"user432@example.com",42,"Female","Bachelor's",4,4,4,3,3,3,4,3,3,4,"Salomon",NA,NA,NA,NA,"Hoka",NA,"Agree","Yes, I'm paying attention","blah blah blah.",45
+433,2026-01-26 19:59:19.385027,7.8,"user433@example.com",54,"Male","Some college",4,3,3,5,4,2,3,3,3,3,NA,NA,NA,NA,NA,NA,NA,"Strongly agree","Yes, I'm paying attention","It was confusing at times",42
+434,2026-01-07 05:27:16.190939,1.7,"user434@example.com",65,"Male","Some college",3,3,3,3,3,4,4,5,4,4,NA,NA,"Saucony",NA,NA,NA,NA,"Neutral","Yes, I'm paying attention","qwerty uiop 789",28
+435,2026-01-13 08:17:41.735234,6.8,"user435@example.com",62,"Male","Some college",3,3,3,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+436,2026-01-22 12:44:15.999235,6.5,"user436@example.com",55,"Female","Some college",4,4,4,3,3,2,3,3,3,2,"Salomon",NA,"Saucony",NA,"Asics",NA,NA,"Agree",NA,NA,NA
+437,2026-01-29 22:06:00.012721,5.2,"user437@example.com",64,"Male","Bachelor's",1,1,1,2,2,2,1,2,3,2,NA,NA,"Saucony",NA,NA,NA,"A different brand, not listed here","Agree","Yes, I'm paying attention","It was confusing at times",24
+438,2026-01-24 01:26:04.021962,6.3,"user438@example.com",68,"Female","Doctorate",2,2,2,3,2,3,3,2,3,3,NA,NA,NA,NA,NA,NA,NA,"Strongly agree","Yes, I'm paying attention","I learned a lot from this",20
+439,2026-01-12 09:59:08.379066,8,"user439@example.com",62,"Male","High school",5,5,4,4,4,3,3,2,2,2,"Salomon",NA,"Saucony",NA,NA,NA,"A different brand, not listed here","Strongly agree","Yes, I'm paying attention","Could use some improvement.",45
+440,2026-01-02 22:02:47.64587,5.2,"user440@example.com",49,"Female","Master's",3,3,4,3,3,4,3,4,3,5,"Salomon",NA,NA,NA,NA,NA,NA,"Neutral","Yes, I'm paying attention","Well organized and clear.",15
+441,2026-01-15 05:09:08.574469,7,"user441@example.com",24,"Other","Master's",4,4,4,4,3,2,3,3,2,3,"Salomon",NA,"Saucony","Brooks",NA,NA,NA,"Strongly agree","Yes, I'm paying attention","Well organized and clear.",31
+442,2026-01-20 10:38:09.206884,6.5,"user442@example.com",28,"Female","Bachelor's",3,4,4,3,3,4,5,5,4,5,NA,"Topo","Saucony","Brooks",NA,NA,NA,NA,NA,NA,NA
+443,2026-01-25 14:01:39.638139,6,"user443@example.com",49,"Male","High school",1,1,2,1,2,4,4,3,4,4,NA,NA,NA,NA,NA,NA,NA,"Agree","Yes, I'm paying attention","asdf qwer zxcv!",29
+444,2026-01-10 17:49:55.086485,4.4,"user444@example.com",26,"Female","Bachelor's",3,1,3,3,2,2,3,3,2,2,"Salomon","Topo",NA,NA,NA,"Hoka",NA,"Agree","Yes, I'm paying attention","Could use some improvement!",31
+445,2026-01-26 21:24:24.812374,9.7,"user445@example.com",32,"Male","Master's",2,2,2,2,3,4,3,4,4,3,"Salomon",NA,NA,NA,NA,NA,NA,"Agree","Yes, I'm paying attention","zzzz aaa bbb",57
+446,2026-01-06 22:59:11.57131,7.4,"user446@example.com",31,"Male","High school",3,3,3,3,3,4,3,5,3,4,NA,NA,NA,"Brooks",NA,NA,NA,"Agree","Yes, I'm paying attention","Could use some improvement",44
+447,2026-01-07 15:41:38.525697,6,"user447@example.com",62,"Female","High school",2,3,2,2,3,3,3,3,4,4,NA,"Topo",NA,NA,NA,NA,NA,NA,NA,NA,NA
+448,2026-01-22 23:22:45.918175,8,"user448@example.com",67,"Female","Bachelor's",5,5,5,5,5,2,2,2,2,2,NA,"Topo","Saucony","Brooks",NA,NA,NA,"Agree","Yes, I'm paying attention","No strong opinion!",24
+449,2026-01-25 01:02:56.914499,4.4,"user449@example.com",22,"Female","Some college",2,4,4,4,4,3,4,2,3,2,NA,NA,NA,NA,NA,NA,NA,"Strongly agree","Yes, I'm paying attention","Not what I expected.",16
+450,2026-01-03 14:46:37.314957,8.7,"user450@example.com",40,"Other","Bachelor's",4,4,3,4,4,3,3,3,4,2,"Salomon",NA,NA,NA,NA,NA,NA,NA,"Yes, I'm paying attention","Well organized and clear.",31
+451,2026-01-25 10:49:49.4815,6.8,"user451@example.com",60,"Male","Master's",4,4,3,4,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+452,2026-01-18 23:26:10.437967,7,"user452@example.com",73,"Male","Some college",3,4,2,3,3,2,3,3,2,2,NA,NA,NA,NA,NA,NA,NA,"Agree","Yes, I'm paying attention","asdf qwer zxcv",NA
+453,2026-01-06 14:28:56.419927,8.6,"user453@example.com",43,"Male","Bachelor's",2,2,1,3,3,4,4,4,4,4,NA,NA,NA,"Brooks",NA,NA,NA,"Strongly agree","Yes, I'm paying attention","I really liked this experience!",9
+454,2026-01-06 21:20:27.060898,8,"user454@example.com",52,"Female","Some college",4,3,3,3,3,2,2,1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+455,2026-01-11 01:20:34.766013,5.6,"user455@example.com",35,NA,"Master's",4,2,4,3,2,3,4,3,4,3,NA,"Topo",NA,NA,NA,NA,NA,NA,NA,NA,NA
+456,2026-01-29 00:05:03.363554,5.6,"user456@example.com",70,"Male","High school",2,1,2,2,1,5,4,3,3,3,"Salomon",NA,NA,NA,"Asics","Hoka",NA,"Neutral","Yes, I'm paying attention","Not what I expected.",NA
+457,2026-01-22 22:00:15.054262,50.5,"user457@example.com",56,"Male","Master's",4,4,3,4,4,3,2,2,3,4,NA,NA,"Saucony",NA,"Asics",NA,NA,"Neutral","Yes, I'm paying attention","Could use some improvement!",25
+458,2026-01-12 16:38:09.340337,7.1,"user458@example.com",45,"Female","Bachelor's",2,2,2,3,2,2,2,2,3,3,NA,NA,"Saucony","Brooks",NA,NA,NA,"Agree","Yes, I'm paying attention","No strong opinion!",53
+459,2026-01-02 16:49:46.772482,5.9,"user459@example.com",35,"Male","Doctorate",2,3,3,2,3,3,2,2,3,2,NA,"Topo",NA,"Brooks","Asics",NA,NA,"Neutral","Yes, I'm paying attention","Could use some improvement!",33
+460,2026-01-26 21:48:58.171311,6.8,"user460@example.com",73,"Female","Some college",5,5,4,4,4,2,3,3,4,3,NA,NA,NA,NA,NA,NA,NA,"Neutral","Yes, I'm paying attention","No strong opinion",22
+461,2025-12-31 15:02:04.820246,9,"user461@example.com",36,"Other","Bachelor's",2,3,1,1,1,4,4,4,4,4,NA,NA,NA,NA,"Asics",NA,NA,"Agree","Yes, I'm paying attention","Could use some improvement.",31
+462,2026-01-03 01:19:34.492512,6.2,"user462@example.com",44,"Female","Doctorate",3,3,3,2,3,4,5,4,4,5,NA,NA,NA,NA,NA,NA,NA,"Agree","Yes, I'm paying attention","asdf qwer zxcv.",27
+463,2026-01-23 21:39:54.295927,6.8,"user463@example.com",62,NA,"Some college",2,3,3,2,3,3,2,3,2,3,NA,NA,NA,NA,"Asics",NA,"A different brand, not listed here","Agree","Yes, I'm paying attention","Could use some improvement!",36
+464,2026-01-12 10:53:49.950886,6.2,"user464@example.com",59,"Male","Doctorate",2,3,3,3,3,3,2,3,2,3,NA,NA,NA,"Brooks",NA,NA,NA,"Agree","Yes, I'm paying attention","Not what I expected",44
+465,2026-01-12 20:14:50.829865,9.1,"user465@example.com",43,"Male","Bachelor's",4,4,3,5,4,3,2,2,1,1,NA,NA,NA,"Brooks",NA,NA,"A different brand, not listed here","Agree","Yes, I'm paying attention","I really liked this experience!",18
+466,2026-01-16 22:38:06.203802,7,"user466@example.com",38,"Female","Bachelor's",3,3,4,3,3,4,4,4,5,5,NA,"Topo","Saucony",NA,NA,NA,NA,NA,NA,NA,NA
+467,2026-01-11 08:05:12.296973,7.2,"user467@example.com",59,"Female","Master's",2,2,1,2,1,2,3,3,2,2,"Salomon",NA,NA,NA,"Asics",NA,NA,"Disagree","Yes, I'm paying attention","I really liked this experience",41
+468,2026-01-09 16:41:11.09952,7.4,"user468@example.com",43,"Female","Master's",4,4,4,4,4,5,5,5,5,5,NA,NA,NA,NA,NA,NA,NA,"Agree","Yes, I'm paying attention","Not what I expected!",19
+469,2026-01-07 22:17:07.51588,9.8,"user469@example.com",19,"Male","Doctorate",2,3,2,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+470,2026-01-09 19:19:45.623652,7.4,"user470@example.com",46,"Female","High school",3,3,3,4,4,2,4,3,3,2,"Salomon","Topo",NA,"Brooks",NA,NA,NA,"Neutral","Yes, I'm paying attention","Well organized and clear!",40
+471,2026-01-02 06:17:17.689847,8.4,"user471@example.com",27,"Female","Doctorate",4,3,4,4,4,3,4,4,3,4,NA,NA,NA,NA,NA,"Hoka",NA,"Disagree","Yes, I'm paying attention","Well organized and clear!",26
+472,2026-01-16 02:32:28.519521,7.4,"user472@example.com",18,"Female","Some college",3,2,3,3,2,3,4,3,4,4,NA,NA,NA,NA,"Asics","Hoka",NA,"Strongly agree","Yes, I'm paying attention","Could use some improvement",21
+473,2026-01-24 22:33:17.589033,0.3,"user473@example.com",56,"Male","Bachelor's",5,4,5,4,5,4,3,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+474,2026-01-01 23:46:36.726467,8.5,"user474@example.com",28,"Female","High school",2,2,2,1,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+475,2026-01-20 03:19:54.823857,6.5,"user475@example.com",61,"Male","High school",4,5,4,5,4,5,5,5,5,5,NA,NA,NA,NA,NA,NA,NA,"Neutral","Yes, I'm paying attention","No strong opinion!",52
+476,2026-01-28 20:24:58.30603,8.8,"user476@example.com",72,"Female","Some college",4,4,5,5,4,4,3,4,3,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+477,2026-01-03 11:45:07.387302,6.7,"user477@example.com",28,"Female","Some college",4,3,4,4,4,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+478,2026-01-04 10:27:57.293204,4.2,"user478@example.com",65,"Female","Some college",4,4,4,4,4,2,3,2,3,1,NA,NA,NA,NA,NA,NA,NA,"Neutral","Yes, I'm paying attention","I learned a lot from this!",26
+479,2026-01-07 03:50:01.273886,6.8,"user479@example.com",26,"Female","Bachelor's",4,4,5,4,5,3,2,2,2,3,NA,NA,NA,NA,NA,NA,NA,"Strongly agree","Yes, I'm paying attention","I learned a lot from this!",46
+480,2026-01-09 10:38:38.803504,7.5,"user480@example.com",70,"Male","Master's",3,4,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+481,2026-01-27 16:28:39.252904,6.3,"user481@example.com",48,"Male","Bachelor's",3,2,3,2,1,2,3,3,4,3,NA,"Topo",NA,NA,NA,"Hoka",NA,"Disagree","Yes, I'm paying attention","It was confusing at times",37
+482,2026-01-25 05:58:59.380013,4.4,"user482@example.com",69,"Male","Doctorate",3,3,3,3,3,3,3,3,2,2,"Salomon","Topo",NA,NA,NA,NA,"A different brand, not listed here","Neutral","Yes, I'm paying attention","I really liked this experience",37
+483,2026-01-23 16:39:03.188647,8.3,"user483@example.com",69,"Female","High school",3,3,3,4,3,3,4,3,4,2,NA,NA,"Saucony",NA,NA,NA,"A different brand, not listed here","Agree","Yes, I'm paying attention","Well organized and clear",27
+484,2026-01-05 11:08:01.214062,8.1,"user484@example.com",23,"Male","Bachelor's",3,3,4,2,3,4,4,4,3,3,NA,NA,NA,NA,NA,NA,"A different brand, not listed here",NA,"Yes, I'm paying attention","Not what I expected.",46
+485,2026-01-28 15:10:05.115207,8.2,"user485@example.com",72,"Female","Doctorate",3,3,3,2,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+486,2026-01-05 17:43:06.56949,7.4,"user486@example.com",47,"Male","Doctorate",5,3,4,4,4,2,2,3,3,4,NA,NA,NA,NA,NA,"Hoka",NA,"Disagree","Yes, I'm paying attention","Well organized and clear.",37
+487,2026-01-01 02:29:15.003371,6.2,"user487@example.com",26,"Other","Master's",1,1,1,2,1,1,1,1,1,1,"Salomon",NA,"Saucony","Brooks",NA,NA,NA,"Neutral","Yes, I'm paying attention","lorem ipsum 123",51
+488,2026-01-27 08:32:18.984268,6.1,"user488@example.com",52,"Female","Doctorate",3,2,3,4,3,3,4,3,4,3,NA,NA,NA,NA,NA,NA,NA,"Strongly agree","Yes, I'm paying attention","Not what I expected!",27
+489,2026-01-16 14:08:20.358838,5.4,"user489@example.com",59,NA,"Some college",1,1,2,1,1,2,3,2,2,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+490,2026-01-15 22:09:46.419137,5.8,"user490@example.com",65,"Female","Bachelor's",5,5,5,5,5,2,3,3,4,3,"Salomon",NA,NA,"Brooks",NA,NA,NA,"Agree","Yes, I'm paying attention","Could use some improvement!",38
+491,2026-01-22 09:26:04.632835,1.4,"user491@example.com",66,"Female","Doctorate",5,5,5,5,5,4,4,4,4,3,"Salomon",NA,NA,NA,NA,NA,NA,"Strongly agree","Yes, I'm paying attention","No strong opinion!",34
+492,2026-01-25 20:53:26.689401,8.4,"user492@example.com",54,"Female","Bachelor's",3,5,4,4,4,5,3,4,4,5,NA,"Topo","Saucony",NA,NA,NA,"A different brand, not listed here","Neutral","Yes, I'm paying attention","lorem ipsum 123",18
+493,2026-01-12 20:40:57.573931,8.4,"user493@example.com",32,"Male","Doctorate",4,4,3,4,3,3,4,4,4,4,NA,NA,NA,NA,NA,"Hoka",NA,"Neutral","Yes, I'm paying attention","I really liked this experience!",41
+494,2026-01-10 18:54:50.849905,6.1,"user494@example.com",64,"Female","Bachelor's",3,3,3,3,4,4,2,3,3,3,NA,NA,"Saucony",NA,NA,NA,NA,"Agree","Yes, I'm paying attention","Not what I expected",42
+495,2026-01-16 16:13:03.472142,4.2,"user495@example.com",56,"Male","Doctorate",4,4,4,4,4,4,3,3,4,4,"Salomon",NA,NA,NA,NA,NA,"A different brand, not listed here","Strongly agree","Yes, I'm paying attention","It was confusing at times!",30
+496,2026-01-02 19:06:02.998502,5.5,"user320@example.com",23,"Female","Some college",4,4,3,4,5,3,2,3,3,3,NA,NA,NA,NA,NA,"Hoka",NA,"Disagree","Yes, I'm paying attention","Not what I expected",34
+497,2026-01-28 05:45:43.286805,7.6,"user497@example.com",19,NA,"Doctorate",3,3,4,4,4,3,3,3,3,3,NA,NA,"Saucony",NA,NA,NA,NA,"Neutral","Yes, I'm paying attention","Well organized and clear!",34
+498,2026-01-14 07:45:52.654742,6.8,"user498@example.com",60,"Female","Doctorate",1,2,2,2,1,4,4,5,4,4,NA,"Topo",NA,"Brooks",NA,"Hoka",NA,"Neutral","Yes, I'm paying attention","It was confusing at times",NA
+499,2026-01-27 05:53:36.024454,2.1,"user499@example.com",40,NA,"Master's",4,3,4,3,3,2,3,2,2,2,NA,"Topo",NA,NA,NA,"Hoka","A different brand, not listed here","Agree","Yes, I'm paying attention","Could use some improvement",46
+500,2026-01-10 08:10:41.384828,7.9,"user500@example.com",62,"Male","Some college",2,3,3,3,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
