@@ -6,6 +6,9 @@
 .RData
 .RDataTmp
 
+# Raw data (never commit)
+data/raw/
+
 # User-specific files
 .Ruserdata
 
