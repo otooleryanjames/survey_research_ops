@@ -25,11 +25,33 @@ mock_data <- tibble(
   respondent_id = 1:n,
   q_email = emails,
   q_age = sample(18:75, n, replace = TRUE),
-  q_gender = sample(c("Male","Female","Other",NA), n, replace = TRUE, prob=c(0.45,0.45,0.05,0.05)),
-  q_education = sample(c("High school","Some college","Bachelor's","Master's","Doctorate"), n, replace = TRUE),
+  q_gender = sample(c("Male","Female","Non-binary", "Prefer to self-describe:", "Prefer not to say", NA), n, replace = TRUE, prob=c(0.45,0.45,0.03,0.01,0.01,0.05)),
+  q_education = sample(c("Less than high school", "High school diploma", "Some college","Bachelor's degree","Master's degree","Doctorate degree", "Prefer not to say", NA), n, replace = TRUE, prob = c(0.098, 0.294, 0.196, 0.245, 0.098, 0.039, 0.01, 0.02)),
   time_to_complete = time_to_complete,
   timestamp = now() - runif(n, 0, 3600*24*30)  # last 30 days
 )
+
+
+### --- New column: q_gender_text for self-described gender --- ###
+# Example self-describe responses
+self_describe_options <- c(
+  "Agender",
+  "Genderqueer",
+  "Transgender male",
+  "Transgender female"
+)
+
+# Initialize column with NA
+mock_data$q_gender_text <- NA_character_
+
+# Fill in self-describe responses
+self_describe_indices <- which(mock_data$q_gender == "Prefer to self-describe:")
+mock_data$q_gender_text[self_describe_indices] <- sample(
+  self_describe_options,
+  length(self_describe_indices),
+  replace = TRUE
+)
+
 
 ### --- Correlated Satisfaction & Trust Batteries --- ###
 n_satisfaction <- 5
@@ -54,6 +76,8 @@ for(i in 1:n_trust){
   mock_data[[paste0("q", n_satisfaction + i, "_trust")]] <- battery_trust[, i]
 }
 
+
+
 ### --- Multiselect Running Shoes q11 --- ###
 brands <- c("Salomon","Topo","Saucony","Brooks","Asics","Hoka","A different brand, not listed here")
 for(b in brands){
@@ -72,7 +96,7 @@ for(row in 1:n){
 }
 
 ### --- Skewed Likert q12 --- ###
-likert_levels <- c("Strongly disagree","Disagree","Neutral","Agree","Strongly agree",NA)
+likert_levels <- c("5", "4", "3", "2", "1", NA)
 prob_skewed <- c(0,0.06,0.21,0.4,0.3,0.03)
 mock_data$q12_likert <- sample(likert_levels, n, replace=TRUE, prob=prob_skewed)
 
@@ -118,13 +142,15 @@ for(i in dropout_indices){
   }
 }
 
+
 ### --- Reorder columns: Metadata → Satisfaction → Trust → Multiselect → Other --- ###
-metadata_cols <- c("respondent_id","timestamp","time_to_complete","q_email","q_age","q_gender","q_education")
+demographics_cols <- c("respondent_id","timestamp","time_to_complete","q_email","q_age","q_gender","q_gender_text","q_education")
 satisfaction_cols <- paste0("q",1:n_satisfaction,"_satisfaction")      # q1–q5
 trust_cols <- paste0("q",6:10,"_trust")                                # q6–q10
 multiselect_cols <- paste0("q11_multiselect_",brands)                  # q11
 other_cols <- c("q12_likert","q13_attention","q14_text","q15_miles_per_week")
-mock_data <- mock_data[, c(metadata_cols,satisfaction_cols,trust_cols,multiselect_cols,other_cols)]
+mock_data <- mock_data[, c(demographics_cols, satisfaction_cols, trust_cols, multiselect_cols, other_cols)]
+
 
 ### --- Quick checks --- ###
 summary(mock_data$time_to_complete)
@@ -135,6 +161,15 @@ cor(mock_data[, trust_cols], use="complete.obs")
 ### --- Optional: subset of dropouts --- ###
 mock_dropout_data <- mock_data %>% slice(dropout_indices)
 cat("Dropout respondents:", n_dropout, "\n")
+
+
+
+
+# --- Convert Satisfaction and Trust columns to character ---
+mock_data <- mock_data %>%
+  mutate(across(all_of(c(satisfaction_cols, trust_cols)), as.character))
+
+
 
 # Create folders if they don't exist
 if(!dir.exists("data/raw")) dir.create("data/raw", recursive = TRUE)
