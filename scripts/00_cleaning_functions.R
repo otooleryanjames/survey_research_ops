@@ -4,8 +4,16 @@ library(lubridate)
 library(MASS)
 library(janitor)
 library(tidyr)
+library(here)
 
-mock_survey_data <- readRDS("C:/Users/otool/Desktop/r_directory/survey_research_ops/data/simulated/mock_survey_data.rds")
+survey_data <- readRDS(
+  here("data", "simulated", "mock_survey_data.rds")
+)
+
+dictionary <- read.csv(
+  here("documents", "data_dictionary.csv")
+)
+
 
 # A function to deduplicate by email, taking the earliest response
 deduplicate_by_email <- function(raw_data, date_var, email_var) {
@@ -18,10 +26,7 @@ deduplicate_by_email <- function(raw_data, date_var, email_var) {
   
 }
 
-deduplicated_data <- deduplicate_by_email(mock_survey_data, timestamp, q_email)
-
-dictionary <- read.csv("C:/Users/otool/Desktop/r_directory/survey_research_ops/documents/data_dictionary.csv")
-
+deduplicated_data <- deduplicate_by_email(survey_data, timestamp, q_email)
 
 
 
@@ -74,7 +79,7 @@ likert_vars <- dictionary %>%
 
 # Loop through all Likert columns
 for (q in likert_vars) {
-  mock_survey_data <- convert_likert_to_factor(mock_survey_data, q, likert_lookup)
+  survey_data_recoded1 <- convert_likert_to_factor(deduplicated_data, q, likert_lookup)
 }
 
 
@@ -89,6 +94,7 @@ single_select_lookup <- dictionary %>%
   separate_rows(levels, sep = "\\|DELIM\\|") %>%
   separate(levels, into = c("value", "choice"), sep = " = ") %>%
   mutate(value = trimws(value), choice = trimws(choice))
+
 
 # 2. Function to convert single_select column to factor
 convert_single_select_to_factor <- function(data, question_name, lookup) {
@@ -112,7 +118,7 @@ single_select_vars <- dictionary %>%
 
 # 4. Apply conversion to all single_select columns
 for (q in single_select_vars) {
-  mock_survey_data <- convert_single_select_to_factor(mock_survey_data, q, single_select_lookup)
+  survey_data_recoded2 <- convert_single_select_to_factor(survey_data_recoded1, q, single_select_lookup)
 }
 
 # Function to enforce variable types based on dictionary
@@ -140,4 +146,4 @@ for (q in single_select_vars) {
 # }
 
 # Apply
-mock_survey_data <- enforce_types(mock_survey_data, dictionary)
+# mock_survey_data <- enforce_types(mock_survey_data, dictionary)
