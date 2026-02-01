@@ -14,9 +14,6 @@ dictionary <- read.csv(
   here("documents", "data_dictionary.csv")
 )
 
-library(dplyr)
-library(tidyr)
-
 run_survey_QA <- function(data, dictionary) {
   
   ### 1️⃣ Time-based flag: weighted speeder
@@ -102,3 +99,8 @@ run_survey_QA <- function(data, dictionary) {
 
 
 qa_data <- run_survey_QA(clean_data, dictionary)
+
+
+# Save files in the processed data folder
+saveRDS(cleaned_data, "data/processed/cleaned_qaflag_survey_data.rds")
+write.csv(cleaned_data, "data/processed/cleaned_qaflag_survey_data.csv", row.names = FALSE)
