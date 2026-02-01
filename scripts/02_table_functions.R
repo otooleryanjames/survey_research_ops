@@ -1,7 +1,6 @@
 library(tibble)
 library(dplyr)
 library(lubridate)
-library(MASS)
 library(janitor)
 library(tidyr)
 library(here)
@@ -14,26 +13,23 @@ dictionary <- read.csv(
   here("documents", "data_dictionary.csv")
 )
 
-summarize_scales <- function(data, dictionary){
-  
-  battery_table <- dictionary %>%
-    filter(type == "likert") %>%
-    dplyr::select(variable, scale_group)
-  
-  battery_names <- unique(battery_table$scale_group)
+battery_table <- dictionary %>%
+  dplyr::filter(type == "likert") %>%
+  dplyr::select(variable, scale_group)
 
-  for (b in battery_names) {
-    
-    items <- battery_table %>%
-      filter(scale_group == b) %>%
-      pull(variable)
-    
-    scale_data <- data %>% 
-      select(all_of(items))
-  }
-  
-  return(battery_table)
-  return(scale_data)
-}
+satisfaction_vars <- battery_table %>%
+  filter(scale_group == "satisfaction") %>%
+  pull(variable)
 
-summarize_scales(qa_data, dictionary)
+satisfaction_data <- dplyr::select(qa_data, all_of(satisfaction_vars))
+
+satisfaction_percent <- satisfaction_data %>%
+  pivot_longer(cols = everything(), names_to = "item", values_to = "response") %>%
+  group_by(item, response) %>%
+  summarise(n = n(), .groups = "drop") %>%
+  group_by(item) %>%
+  mutate(percent = n / sum(n) * 100) %>%
+  dplyr::select(-n) %>%
+  pivot_wider(names_from = item, values_from = percent, values_fill = 0)
+
+satisfaction_percent
