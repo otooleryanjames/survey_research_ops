@@ -78,8 +78,9 @@ likert_vars <- dictionary %>%
   pull(variable)
 
 # Loop through all Likert columns
+survey_data_recoded1 <- deduplicated_data
 for (q in likert_vars) {
-  survey_data_recoded1 <- convert_likert_to_factor(deduplicated_data, q, likert_lookup)
+  survey_data_recoded1 <- convert_likert_to_factor(survey_data_recoded1, q, likert_lookup)
 }
 
 
@@ -99,14 +100,28 @@ single_select_lookup <- dictionary %>%
 # 2. Function to convert single_select column to factor
 convert_single_select_to_factor <- function(data, question_name, lookup) {
   
+  # Extract mapping for this question
   mapping <- lookup %>% filter(variable == question_name)
   
-  # Map numeric codes (stored as character) to text choices
-  data[[question_name]] <- mapping$choice[match(data[[question_name]], mapping$value)]
+  # If all values in the column are numeric codes (as character), map to choice text
+  if (all(data[[question_name]] %in% mapping$value | is.na(data[[question_name]]))) {
+    data[[question_name]] <- mapping$choice[match(data[[question_name]], mapping$value)]
+  } else {
+    # Otherwise, assume data already contains text values
+    missing_vals <- setdiff(unique(data[[question_name]]), mapping$choice)
+    if (length(missing_vals) > 0) {
+      warning(
+        paste0(
+          "The following values in '", question_name,
+          "' are not in the lookup and will be kept as-is: ",
+          paste(missing_vals, collapse = ", ")
+        )
+      )
+    }
+  }
   
-  # Convert to factor (not ordered)
-  data[[question_name]] <- factor(data[[question_name]],
-                                  levels = mapping$choice)
+  # Convert to factor with levels in dictionary order
+  data[[question_name]] <- factor(data[[question_name]], levels = mapping$choice)
   
   return(data)
 }
@@ -117,8 +132,14 @@ single_select_vars <- dictionary %>%
   pull(variable)
 
 # 4. Apply conversion to all single_select columns
+survey_data_recoded2 <- survey_data_recoded1
+
 for (q in single_select_vars) {
-  survey_data_recoded2 <- convert_single_select_to_factor(survey_data_recoded1, q, single_select_lookup)
+  survey_data_recoded2 <- convert_single_select_to_factor(
+    survey_data_recoded2,  # note: pass the *updated* data
+    q,
+    single_select_lookup
+  )
 }
 
 # Function to enforce variable types based on dictionary
@@ -147,3 +168,16 @@ for (q in single_select_vars) {
 
 # Apply
 # mock_survey_data <- enforce_types(mock_survey_data, dictionary)
+
+
+
+
+cleaned_data <- survey_data_recoded2
+
+
+# Create folders if they don't exist
+if(!dir.exists("data/processed")) dir.create("data/processed", recursive = TRUE)
+
+# Save files in the processed data folder
+saveRDS(cleaned_data, "data/processed/cleaned_survey_data.rds")
+write.csv(cleaned_data, "data/processed/cleaned_survey_data.csv", row.names = FALSE)

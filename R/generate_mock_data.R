@@ -2,6 +2,7 @@ library(tibble)
 library(dplyr)
 library(lubridate)
 library(MASS)
+library(stringi)
 
 set.seed(455)
 
@@ -121,6 +122,8 @@ mock_data$q14_text <- sample(c(text_real,gibberish), n, replace=TRUE,
                              prob=c(rep(0.9/length(text_real),length(text_real)),
                                     rep(0.1/length(gibberish),length(gibberish))))
 mock_data$q14_text <- paste0(mock_data$q14_text, sample(c("","!","."),n,replace=TRUE))
+
+
 
 ### --- Numeric: Miles per Week q15 --- ###
 mock_data$q15_miles_per_week <- round(rnorm(n, mean=35, sd=10))

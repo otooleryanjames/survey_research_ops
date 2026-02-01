@@ -1,9 +1,9 @@
 variable,type,question_text,levels,reverse,logic,qa_role,notes,scale_group
 q_email,character,"NA, embedded data",NA,NA,NA,NA,Respondent email,NA
 q_age,numeric,What is your age in years?,NA,NA,Numeric input required,NA,Must be numeric,NA
-q_gender,single_select,What is your gender?,"1 = Male, 2 = Female, 3 = Non-binary, 4 = Prefer to self-describe, 5 = Prefer not to say",FALSE,NA,NA,Respondent gender,NA
+q_gender,single_select,What is your gender?,"1 = Male, 2 = Female, 3 = Non-binary, 4 = Prefer to self-describe:, 5 = Prefer not to say",FALSE,NA,NA,Respondent gender,NA
 q_gender_text,character,What is your gender?,NA,FALSE,Text entry option for folks who prefer to self-describe,NA,Respondent gender self-description,NA
-q_education,single_select,What is the highest level of education you have completed?,"1 = Less than high school, 2 = High School diploma, 3 = Some college, 4 = Bachelor's degree, 5 = Master's degree, 6 = Doctorate degree, 7 = Prefer not to say",FALSE,NA,NA,Respondent education level,NA
+q_education,single_select,What is the highest level of education you have completed?,"1 = Less than high school, 2 = High school diploma, 3 = Some college, 4 = Bachelor's degree, 5 = Master's degree, 6 = Doctorate degree, 7 = Prefer not to say",FALSE,NA,NA,Respondent education level,NA
 q1_satisfaction,likert,"Overall, I am satisfied with the performance of my current running shoes.","1 = Strongly Disagree, 2 = Disagree, 3 = Neither Agree Nor Disagree, 4 = Agree, 5 = Strongly Agree",FALSE,Rotate response options. Rotate satisfaction and trust blocks.,scale,Satisfaction item 1,satisfaction
 q2_satisfaction,likert,I am satisfied with the comfort of my current running shoes.,"1 = Strongly Disagree, 2 = Disagree, 3 = Neither Agree Nor Disagree, 4 = Agree, 5 = Strongly Agree",FALSE,Rotate response options. Rotate satisfaction and trust blocks.,scale,Satisfaction item 2,satisfaction
 q3_satisfaction,likert,I am satisfied with the durability of my current running shoes.,"1 = Strongly Disagree, 2 = Disagree, 3 = Neither Agree Nor Disagree, 4 = Agree, 5 = Strongly Agree",FALSE,Rotate response options. Rotate satisfaction and trust blocks.,scale,Satisfaction item 3,satisfaction

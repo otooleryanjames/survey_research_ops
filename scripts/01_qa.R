@@ -6,7 +6,6 @@ library(janitor)
 library(tidyr)
 library(here)
 
-
 clean_data <- readRDS(
   here("data", "processed", "cleaned_survey_data.rds")
 )
@@ -15,24 +14,23 @@ dictionary <- read.csv(
   here("documents", "data_dictionary.csv")
 )
 
-### Time-based flags
-speed_time <- median(clean_data$time_to_complete) - 3 * mad(clean_data$time_to_complete)
+library(dplyr)
+library(tidyr)
 
-#but what does this mean for people who were just in the survey for a short time...?
-clean_data_time_flag <- clean_data %>% 
-  mutate(
-    flag_speeder_time = case_when(
-      time_to_complete < speed_time ~ 1,
-      TRUE ~ 0
-    )
-  )
-
-### Attention-based flags
-## Function with variable, and required response?
-
-flag_attention_checks <- function(data, dictionary) {
+run_survey_QA <- function(data, dictionary) {
   
-  # Get all attention check questions
+  ### 1️⃣ Time-based flag: weighted speeder
+  speed_time <- median(data$time_to_complete, na.rm = TRUE) - 3 * mad(data$time_to_complete, na.rm = TRUE)
+  
+  data <- data %>%
+    mutate(
+      flag_speeder_time_weighted = case_when(
+        time_to_complete >= speed_time ~ 0,
+        TRUE ~ pmin(1, ((speed_time - time_to_complete) / speed_time)^2) * 2
+      )
+    )
+  
+  ### 2️⃣ Attention check flags
   attention_table <- dictionary %>%
     filter(qa_role == "attention_check") %>%
     mutate(
@@ -43,33 +41,64 @@ flag_attention_checks <- function(data, dictionary) {
     separate(levels, into = c("value", "choice"), sep = " = ") %>%
     mutate(value = trimws(value), choice = trimws(choice))
   
-  flagged_data <- data
-  
-  # Loop through each attention check question
   for (q in unique(attention_table$variable)) {
-    
-    # Get the correct response (usually the one the instructions say to pick)
     correct_response <- attention_table %>%
       filter(variable == q) %>%
-      slice(1) %>%  # assume first listed value is the correct one
+      slice(1) %>% # assume first listed value is correct
       pull(choice)
     
-    # Create a new column name for the flag
-    flag_col <- paste0(q, "_fail")
-    
-    # Flag failures: 0 = correct, 1 = incorrect
-    flagged_data <- flagged_data %>%
-      mutate(
-        !!flag_col := ifelse(.data[[q]] == correct_response, 0, 1)
-      )
+    flag_col <- paste0(q, "_attention_fail")
+    data[[flag_col]] <- ifelse(data[[q]] == correct_response, 0, 2)
   }
   
-  return(flagged_data)
+  ### 3️⃣ Straightliner check across all batteries
+  battery_table <- dictionary %>%
+    filter(qa_role == "scale") %>%
+    dplyr::select(variable, scale_group)
+  
+  battery_names <- unique(battery_table$scale_group)
+  n <- nrow(data)
+  pct_straightlined <- numeric(n)
+  
+  for (b in battery_names) {
+    items <- battery_table %>%
+      filter(scale_group == b) %>%
+      pull(variable)
+    
+    items <- intersect(items, names(data))
+    if (length(items) < 3) next
+    
+    battery_flags <- apply(
+      data[items],
+      1,
+      function(row) {
+        row <- row[!is.na(row)]
+        if (length(row) < 3) return(0)
+        as.integer(length(unique(row)) == 1)
+      }
+    )
+    
+    pct_straightlined <- pct_straightlined + battery_flags
+  }
+  
+  pct_straightlined <- pct_straightlined / length(battery_names)
+  data$pct_batteries_straightlined <- pct_straightlined
+  
+  ### 4️⃣ QA summary score
+  attention_cols <- grep("_attention_fail$", names(data), value = TRUE)
+  
+  data <- data %>%
+    rowwise() %>%
+    mutate(
+      qa_sum = sum(
+        c_across(c(flag_speeder_time_weighted, pct_batteries_straightlined, all_of(attention_cols))),
+        na.rm = TRUE
+      )
+    ) %>%
+    ungroup()
+  
+  return(data)
 }
 
 
-survey_data_flagged <- flag_attention_checks(clean_data_time_flag, dictionary)
-
-
-
-###
+qa_data <- run_survey_QA(clean_data, dictionary)
